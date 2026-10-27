@@ -26,17 +26,17 @@ Route::post('/registro', [AuthController::class, 'registrar'])->name('registro.p
 // Rutas protegidas (Requieren iniciar sesión)
 Route::middleware(['auth'])->group(function () {
 
-    // Panel de la Doctora (Muestra la lista de pacientes registrados dinámicamente)
+    // Panel de la Doctora
     Route::get('/doctora/panel', [DoctoraController::class, 'panel'])->name('doctora.panel');
 
-    // Panel del Tutor / Paciente
-    Route::get('/tutor/dashboard', function () {
-        return view('tutor.dashboard');
-    })->name('tutor.dashboard');
+    // NUEVO: Panel de la Recepcionista
+    Route::get('/recepcion/panel', function () {
+        return view('recepcion.panel');
+    })->name('recepcion.panel');
 
     // Cerrar sesión
     Route::post('/logout', function () {
         Illuminate\Support\Facades\Auth::logout();
-        return redirect()->route('login');
+        return redirect()->route('home');
     })->name('logout');
 });

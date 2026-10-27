@@ -83,21 +83,21 @@ class AuthController extends Controller
         // Verificar si el usuario existe y si la contraseña coincide
        // En el método ingresar() del AuthController.php:
 
-if ($usuario && Hash::check($request->password, $usuario->contraseña_hash)) {
-    Auth::login($usuario);
+// Verificar si el usuario existe y si la contraseña coincide
+        if ($usuario && Hash::check($request->password, $usuario->contraseña_hash)) {
+            
+            // Iniciar sesión manualmente en Laravel
+            Auth::login($usuario);
 
-    // Redirección estricta según el rol
-    switch ($usuario->rol->nombre_rol) {
-        case 'Doctora':
-            return redirect()->route('doctora.panel'); // Pantalla específica de la doctora con los pacientes
-        case 'Recepcionista':
-            return redirect()->route('recepcion.panel'); // Panel de recepción
-        case 'Tutor':
-            return redirect()->route('tutor.dashboard'); // Vista del tutor
-        default:
-            return redirect()->route('home');
-    }
-}
+            // Redirección estricta según el rol
+            if ($usuario->rol && $usuario->rol->nombre_rol === 'Doctora') {
+                return redirect()->route('doctora.panel'); 
+            } elseif ($usuario->rol && $usuario->rol->nombre_rol === 'Recepcionista') {
+                return redirect()->route('recepcion.panel'); // Redirige al panel de recepción
+            } else {
+                return redirect()->route('home'); // Tutores van a la página principal
+            }
+        }
 
         return back()->withErrors(['telefono' => 'El teléfono o la contraseña son incorrectos.'])->withInput();
     }
