@@ -64,7 +64,11 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
+<<<<<<< HEAD
             'model' => App\Models\Usuario::class,
+=======
+            'model' => env('AUTH_MODEL', User::class),
+>>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         ],
 
         // 'users' => [

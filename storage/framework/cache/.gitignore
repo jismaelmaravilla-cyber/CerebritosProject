@@ -1,3 +1,7 @@
 *
 !data/
+<<<<<<< HEAD
+=======
+!locks/
+>>>>>>> d606654 (proyecto de la puta cabra del fortnite)
 !.gitignore

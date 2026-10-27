@@ -2,6 +2,10 @@ compiled.php
 config.php
 down
 events.scanned.php
+<<<<<<< HEAD
+=======
+lsp-*.php
+>>>>>>> d606654 (proyecto de la puta cabra del fortnite)
 maintenance.php
 routes.php
 routes.scanned.php

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DoctoraController;
 
@@ -40,3 +41,9 @@ Route::middleware(['auth'])->group(function () {
         return redirect()->route('login');
     })->name('logout');
 });
+=======
+
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> d606654 (proyecto de la puta cabra del fortnite)
