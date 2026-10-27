@@ -22,7 +22,7 @@
 
         <!-- 1. GRAN IMAGEN DE ARRIBA (Galería de amor) -->
         <div class="w-full h-72 sm:h-80 overflow-hidden shadow-md">
-            <img src="URL_IMAGEN_GALERIA_DE_AMOR" alt="Galería de amor Dra. Monse" class="w-full h-full object-cover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWxFbVuUK4v4pQj-KytGon8cXcIQ86uzg4RxIAUzkVaJrid6f-B1AFuV4&s=10" alt="Galería de amor Dra. Monse" class="w-full h-full object-cover">
         </div>
 
         <!-- 2. SECCIÓN DEL PODCAST -->
@@ -35,7 +35,7 @@
 
                 <!-- Imagen Circular del Podcast (Centro) -->
                 <div class="w-36 h-36 rounded-full overflow-hidden border-4 border-white shadow-lg mx-auto flex-shrink-0">
-                    <img src="URL_IMAGEN_CIRCULAR_PODCAST" alt="Neurodesarrollo con Amor Podcast" class="w-full h-full object-cover">
+                    <img src="https://i.pinimg.com/736x/6e/2c/66/6e2c669da97f9eff52a7f6926cda064d.jpg" alt="Neurodesarrollo con Amor Podcast" class="w-full h-full object-cover">
                 </div>
 
                 <!-- Texto Derecha -->
@@ -46,7 +46,7 @@
 
             <!-- Botón Escúchalo ahora (Redirige a Spotify) -->
 <div class="flex justify-center mt-2">
-    <a href="https://open.spotify.com/show/5kopp3hL0uRgLZUh7nOvia" target="_blank" rel="noopener noreferrer" class="bg-[#7ac1c4] hover:bg-[#68b0b3] text-gray-900 font-medium px-8 py-2.5 rounded-full shadow-md transition text-base">
+    <a href="https://open.spotify.com/show/033CYpifd6os8RPCB9JnxF" target="_blank" rel="noopener noreferrer" class="bg-[#7ac1c4] hover:bg-[#68b0b3] text-gray-900 font-medium px-8 py-2.5 rounded-full shadow-md transition text-base">
         Escúchalo ahora
     </a>
 </div>
@@ -58,7 +58,7 @@
                 
                 <!-- Logo de Cerebritos (Esquina Superior Derecha de la tarjeta) -->
                 <div class="absolute -top-6 right-4 w-20 h-20 rounded-full overflow-hidden border-2 border-white shadow-md bg-white">
-                    <img src="URL_LOGO_CEREBRITOS" alt="Logo Neurodesarrollo y Conducta" class="w-full h-full object-cover">
+                    <img src="https://pbs.twimg.com/profile_images/1075847968404598784/3vj_7nYw_200x200.jpg" alt="Logo Neurodesarrollo y Conducta" class="w-full h-full object-cover">
                 </div>
 
                 <!-- Texto de Bienvenida / Mensaje principal -->
@@ -87,6 +87,22 @@
                             </p>
                         </div>
                     </div>
+                    <!-- SECCIÓN DE BOTONES FINALES (Hacer cita y Pruebas) -->
+<div class="flex justify-center items-center space-x-4 py-10">
+    
+    <!-- Botón: Hacer Cita -->
+
+
+    <a href="" class="bg-[#7ac1c4] hover:bg-[#68b0b3] text-gray-900 font-semibold px-6 py-3 rounded-xl shadow-md transition text-base text-center">
+        Hacer cita
+    </a>
+
+    <!-- Botón: Pruebas -->
+    <a href="" class="bg-white hover:bg-gray-50 text-gray-800 font-semibold px-6 py-3 rounded-xl shadow-md border border-gray-300 transition text-base text-center">
+        Pruebas
+    </a>
+
+</div>
                 </div>
 
             </div>
