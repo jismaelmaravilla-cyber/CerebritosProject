@@ -33,7 +33,7 @@ class AuthController extends Controller
             // 1. Crear el usuario Tutor (Asumimos que el ID del rol de Tutor es 2, ajústalo si es diferente en tu BD)
             // Puedes insertar un rol por defecto o asegurarte de tener roles creados.
             $tutor = Usuario::create([
-                'id_rol' => 2, // 2 = Tutor / Paciente (Ejemplo)
+                'id_rol' => 3, // 3 = Tutor / Paciente (Ejemplo)
                 'nombre' => $request->nombre_tutor,
                 'apellido' => $request->apellido_tutor,
                 'telefono' => $request->telefono,
@@ -86,16 +86,15 @@ class AuthController extends Controller
 // Verificar si el usuario existe y si la contraseña coincide
         if ($usuario && Hash::check($request->password, $usuario->contraseña_hash)) {
             
-            // Iniciar sesión manualmente en Laravel
             Auth::login($usuario);
 
-            // Redirección estricta según el rol
+            // Redirección estricta por nombre de rol
             if ($usuario->rol && $usuario->rol->nombre_rol === 'Doctora') {
                 return redirect()->route('doctora.panel'); 
             } elseif ($usuario->rol && $usuario->rol->nombre_rol === 'Recepcionista') {
-                return redirect()->route('recepcion.panel'); // Redirige al panel de recepción
+                return redirect()->route('recepcion.panel'); 
             } else {
-                return redirect()->route('home'); // Tutores van a la página principal
+                return redirect()->route('home'); // Tutores y cualquier otro usuario van a la página principal
             }
         }
 

@@ -17,7 +17,8 @@
 <body class="bg-[#f5f0eb] min-h-screen text-gray-800">
 
     <!-- CONTENEDOR PRINCIPAL SCROLLEABLE -->
-    <div class="w-full max-w-md mx-auto bg-[#f9f4f0] shadow-2xl min-h-screen relative overflow-hidden">
+    <!-- NUEVA VISTA (Ocupa todo el ancho de la pantalla) -->
+<div class="w-full bg-[#f9f4f0] shadow-2xl min-h-screen relative">
 
         <!-- 1. GRAN IMAGEN DE ARRIBA (Galería de amor) -->
         <div class="w-full h-72 sm:h-80 overflow-hidden shadow-md">
