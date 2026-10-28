@@ -95,7 +95,7 @@
                         </a>
 
                         <!-- Botón: Pruebas -->
-                        <a href="#" class="bg-white hover:bg-gray-50 text-gray-800 font-semibold px-6 py-3 rounded-xl shadow-md border border-gray-300 transition text-base text-center">
+                        <a href="{{route('pruebas.index')}}" class="bg-[#7ac1c4] hover:bg-[#68b0b3] text-gray-900 font-semibold px-6 py-3 rounded-xl shadow-md transition">
                             Pruebas
                         </a>
                     </div>

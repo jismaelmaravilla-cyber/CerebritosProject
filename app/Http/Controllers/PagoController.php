@@ -18,14 +18,14 @@ class PagoController extends Controller
 
     public function store(Request $request)
     {
-        // 1. Validaciones base
+        // 1. Validaciones nromuy
         $rules = [
             'id_cita'     => 'required|exists:citas,id_cita',
             'tipo_pago'   => 'required|in:anticipo,completo',
             'metodo_pago' => 'required|in:Tarjeta,PayPal,Transferencia',
         ];
 
-        // 2. Validaciones condicionales según el método de pago seleccionado
+        // 2. Validaciones condicionales segun apgo
         if ($request->metodo_pago === 'Tarjeta') {
             $rules['numero_tarjeta'] = 'required|numeric|digits:16';
             $rules['expiracion']     = 'required|string|min:4';
@@ -38,18 +38,18 @@ class PagoController extends Controller
 
         $request->validate($rules);
 
-        // 3. Procesar archivo si es transferencia
+        
         $comprobanteUrl = null;
         if ($request->hasFile('comprobante')) {
             $comprobanteUrl = $request->file('comprobante')->store('comprobantes', 'public');
         }
 
-        // 4. Determinar monto
+    
         $monto = ($request->tipo_pago === 'anticipo') ? 300.00 : 900.00;
 
         $idUsuario = auth()->id() ?? auth()->user()->id_usuario ?? 1;
 
-        // 5. Crear Pago
+        
         $pago = Pago::create([
             'id_cita'                => $request->id_cita,
             'id_usuario'             => $idUsuario,
@@ -62,7 +62,7 @@ class PagoController extends Controller
             'fecha_pago'             => now(),
         ]);
 
-        // 6. Actualizar estado de la Cita de forma correcta
+        
         $cita = Cita::find($request->id_cita);
         if ($cita) {
             $saldoPendiente = ($request->tipo_pago === 'anticipo') ? ($cita->costo_total - 300.00) : 0.00;
@@ -73,7 +73,7 @@ class PagoController extends Controller
             ]);
         }
 
-        // Redirigir a la vista de aprobación enviando el ID del pago
+        
         return redirect()->route('pagos.aprobado', ['id_pago' => $pago->id_pago]);
     }
 

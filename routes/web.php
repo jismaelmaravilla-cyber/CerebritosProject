@@ -7,8 +7,9 @@ use App\Http\Controllers\HorarioDisponibleController;
 use App\Http\Controllers\PagoController;
 use App\Http\Controllers\ExpedienteController;
 use App\Models\Paciente;
+use App\Http\Controllers\PruebaController;
 
-// La ruta raíz detecta si hay sesión activa y redirige según el rol
+// La ruta raíz detecta si hay sesión activa 
 Route::get('/', function () {
     if (auth()->check()) {
         $usuario = auth()->user();
@@ -20,11 +21,10 @@ Route::get('/', function () {
         if (strcasecmp($rolNombre, 'Recepcionista') === 0 || $usuario->telefono === '8712222222') {
             return redirect()->route('recepcion.panel');
         }
-        // Si es Tutor (papá/mamá), muestra la página principal de bienvenida
+       
         return view('welcome');
     }
     
-    // Si no ha iniciado sesión, ve el login
     return view('auth.login');
 })->name('home');
 
@@ -47,7 +47,8 @@ Route::middleware('auth')->group(function () {
     
     Route::post('/logout', [AuthController::class, 'salir'])->name('logout');
 
-    // Panel de la doctora (Protegido y con la consulta de pacientes integrada)
+    
+    
     Route::get('/doctora/panel', function () {
         $pacientes = Paciente::with('tutor')->get();
         return view('recepcion.doctora.panel', compact('pacientes'));
@@ -62,7 +63,7 @@ Route::middleware('auth')->group(function () {
     })->name('tutor.dashboard');
 
     // Módulo de Citas
-    Route::get('/citas', [CitaController::class, 'getCitas'])->name('cita.crear');
+    Route::get('/citas/{id_paciente?}', [CitaController::class, 'getCitas'])->name('cita.crear');
     Route::post('/citas', [CitaController::class, 'store']);
     
     Route::get('/pagos', [PagoController::class, 'create'])->name('pagos.create');
@@ -76,3 +77,11 @@ Route::middleware('auth')->group(function () {
 Route::post('/pagos', [PagoController::class, 'store'])->name('pagos.store');
 Route::get('/pagos/aprobado/{id_pago}', [PagoController::class, 'aprobado'])->name('pagos.aprobado');
 });
+
+Route::get('/pruebas', [PruebaController::class, 'index'])->name('pruebas.index');
+Route::get('/pruebas/{id}', [PruebaController::class, 'contestar'])->name('pruebas.contestar');
+Route::post('/pruebas/{id}/guardar', [PruebaController::class, 'guardarRespuestas'])->name('pruebas.guardar');
+Route::get('/pruebas/resultado/{id_resultado}', [PruebaController::class, 'verResultado'])->name('pruebas.resultado');
+
+
+

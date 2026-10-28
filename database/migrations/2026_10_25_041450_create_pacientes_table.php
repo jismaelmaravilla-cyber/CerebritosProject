@@ -12,10 +12,10 @@ return new class extends Migration
             $table->id('id_paciente'); // Llave primaria
             $table->unsignedBigInteger('id_tutor_usuario'); // Llave foránea que conecta con el tutor
             
-            // Datos del paciente
+           
             $table->string('nombre');
             $table->string('apellido_paterno');
-            $table->string('apellido_materno')->nullable(); // Opcional
+            $table->string('apellido_materno')->nullable(); 
             $table->date('fecha_nacimiento');
             $table->integer('edad')->nullable();
             $table->string('escolaridad')->nullable();
@@ -24,7 +24,7 @@ return new class extends Migration
             
             $table->timestamps();
 
-            // Definición de la relación con la tabla usuarios (el tutor)
+           
             $table->foreign('id_tutor_usuario')
                   ->references('id_usuario')
                   ->on('usuarios')

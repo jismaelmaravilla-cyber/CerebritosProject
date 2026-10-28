@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
     "content-hash": "53b5d56b3b7e3cbac1713e68c8850f6c",
     "packages": [
         {
@@ -19,35 +18,14 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/brick/math/zipball/63422359a44b7f06cae63c3b429b59e8efcc0629",
                 "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629",
-=======
-    "content-hash": "cda2add6397422fb1a2eb5b9207f1575",
-    "packages": [
-        {
-            "name": "brick/math",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brick/math.git",
-                "reference": "2effe05d2177c451b86c6a073196a4034c02f211"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/2effe05d2177c451b86c6a073196a4034c02f211",
-                "reference": "2effe05d2177c451b86c6a073196a4034c02f211",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
-<<<<<<< HEAD
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpstan/phpstan": "2.1.22",
-=======
-                "phpstan/phpstan": "2.2.13",
-                "phpstan/phpstan-phpunit": "2.0.18",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "phpunit/phpunit": "^11.5"
             },
             "type": "library",
@@ -78,11 +56,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/brick/math/tree/0.14.8"
-=======
-                "source": "https://github.com/brick/math/tree/1.0.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -90,11 +64,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-02-10T14:33:43+00:00"
-=======
-            "time": "2026-09-12T10:28:18+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -247,23 +217,23 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b"
+                "reference": "46351b6812b7b6d52b82c3efa5dfb786a198ec88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/6d6c96277ea252fc1304627204c3d5e6e15faa3b",
-                "reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/46351b6812b7b6d52b82c3efa5dfb786a198ec88",
+                "reference": "46351b6812b7b6d52b82c3efa5dfb786a198ec88",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^12.0 || ^13.0",
+                "doctrine/coding-standard": "^12.0 || ^14.0",
                 "phpstan/phpstan": "^1.12 || ^2.0",
                 "phpstan/phpstan-phpunit": "^1.4 || ^2.0",
                 "phpstan/phpstan-strict-rules": "^1.6 || ^2.0",
@@ -317,7 +287,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/2.1.0"
+                "source": "https://github.com/doctrine/inflector/tree/2.1.1"
             },
             "funding": [
                 {
@@ -333,7 +303,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-08-10T19:31:58+00:00"
+            "time": "2026-10-26T08:14:14+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -676,7 +646,6 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-<<<<<<< HEAD
             "version": "7.16.1",
             "source": {
                 "type": "git",
@@ -687,38 +656,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/81755d989b3007ca7f88a069857553cd08e7dc2e",
                 "reference": "81755d989b3007ca7f88a069857553cd08e7dc2e",
-=======
-            "version": "8.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b920e5fcaf81d761b8fabe600ca90999beaefdb7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b920e5fcaf81d761b8fabe600ca90999beaefdb7",
-                "reference": "b920e5fcaf81d761b8fabe600ca90999beaefdb7",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-<<<<<<< HEAD
                 "guzzlehttp/promises": "^2.6",
                 "guzzlehttp/psr7": "^2.13.2",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
                 "symfony/polyfill-php80": "^1.25"
-=======
-                "guzzlehttp/promises": "^3.1",
-                "guzzlehttp/psr7": "^3.2",
-                "php": "^7.4 || ^8.0",
-                "psr/http-client": "^1.0",
-                "psr/http-factory": "^1.0",
-                "symfony/polyfill-php80": "^1.25",
-                "symfony/polyfill-php82": "^1.27"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "provide": {
                 "psr/http-client-implementation": "1.0"
@@ -726,17 +673,10 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "ext-curl": "*",
-<<<<<<< HEAD
                 "guzzle/client-integration-tests": "3.0.3",
                 "guzzlehttp/test-server": "^0.7",
                 "php-http/message-factory": "^1.1",
                 "phpunit/phpunit": "^8.5.52 || ^9.6.34",
-=======
-                "guzzle/client-integration-tests": "4.0.1",
-                "guzzlehttp/test-server": "^1.1",
-                "php-http/message-factory": "^1.1",
-                "phpunit/phpunit": "^9.6.34",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "psr/log": "^1.1 || ^2.0 || ^3.0"
             },
             "suggest": {
@@ -752,12 +692,9 @@
                 }
             },
             "autoload": {
-<<<<<<< HEAD
                 "files": [
                     "src/functions_include.php"
                 ],
-=======
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "psr-4": {
                     "GuzzleHttp\\": "src/"
                 }
@@ -817,11 +754,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/guzzle/guzzle/tree/7.16.1"
-=======
-                "source": "https://github.com/guzzle/guzzle/tree/8.3.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -837,7 +770,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-25T21:35:21+00:00"
         },
         {
@@ -856,35 +788,11 @@
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-=======
-            "time": "2026-10-18T13:38:43+00:00"
-        },
-        {
-            "name": "guzzlehttp/promises",
-            "version": "3.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/promises.git",
-                "reference": "094d0ec418eb3b1411ea271a180ec95cae6ae933"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/094d0ec418eb3b1411ea271a180ec95cae6ae933",
-                "reference": "094d0ec418eb3b1411ea271a180ec95cae6ae933",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4 || ^8.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/deprecation-contracts": "^2.5 || ^3.0"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-<<<<<<< HEAD
                 "phpunit/phpunit": "^8.5.52 || ^9.6.34"
-=======
-                "phpunit/phpunit": "^9.6.34"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
@@ -930,11 +838,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.6.0"
-=======
-                "source": "https://github.com/guzzle/promises/tree/3.1.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -950,7 +854,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-18T12:46:59+00:00"
         },
         {
@@ -978,45 +881,12 @@
             "provide": {
                 "psr/http-factory-implementation": "1.0",
                 "psr/http-message-implementation": "1.0"
-=======
-            "time": "2026-10-18T12:48:16+00:00"
-        },
-        {
-            "name": "guzzlehttp/psr7",
-            "version": "3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "cdc139396207a5eba10c242d241fb014cb098390"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/cdc139396207a5eba10c242d241fb014cb098390",
-                "reference": "cdc139396207a5eba10c242d241fb014cb098390",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4 || ^8.0",
-                "psr/http-factory": "^1.1",
-                "psr/http-message": "^2.0",
-                "symfony/polyfill-php80": "^1.25",
-                "symfony/polyfill-php82": "^1.27"
-            },
-            "provide": {
-                "psr/http-factory-implementation": "1.1",
-                "psr/http-message-implementation": "2.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "1.1.0",
                 "jshttp/mime-db": "1.54.0.1",
-<<<<<<< HEAD
                 "phpunit/phpunit": "^8.5.52 || ^9.6.34"
-=======
-                "php-http/psr7-integration-tests": "^1.5.1",
-                "phpunit/phpunit": "^9.6.34"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -1087,11 +957,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/guzzle/psr7/tree/2.13.2"
-=======
-                "source": "https://github.com/guzzle/psr7/tree/3.2.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -1107,7 +973,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-17T23:49:46+00:00"
         },
         {
@@ -1126,37 +991,12 @@
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-=======
-            "time": "2026-10-17T23:57:19+00:00"
-        },
-        {
-            "name": "guzzlehttp/uri-template",
-            "version": "v2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/uri-template.git",
-                "reference": "7a466ad606491eb6528c717482f7cca77f1851f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/uri-template/zipball/7a466ad606491eb6528c717482f7cca77f1851f3",
-                "reference": "7a466ad606491eb6528c717482f7cca77f1851f3",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4 || ^8.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/polyfill-php80": "^1.25"
             },
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
-<<<<<<< HEAD
                 "phpunit/phpunit": "^8.5.52 || ^9.6.34",
                 "uri-template/tests": "1.0.0"
-=======
-                "phpunit/phpunit": "^9.6.34",
-                "uri-template/tests": "1.0.2"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
@@ -1203,11 +1043,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/uri-template/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/guzzle/uri-template/tree/v1.0.11"
-=======
-                "source": "https://github.com/guzzle/uri-template/tree/v2.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -1223,21 +1059,20 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-08-24T09:15:32+00:00"
         },
         {
             "name": "laravel/framework",
-            "version": "v12.70.1",
+            "version": "v12.70.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "e09fc54263d1a56cfe1709958fcbb22a4159b1e3"
+                "reference": "4dc928b47c05a2a96ba51c39d2bd7749b5ea332e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/e09fc54263d1a56cfe1709958fcbb22a4159b1e3",
-                "reference": "e09fc54263d1a56cfe1709958fcbb22a4159b1e3",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4dc928b47c05a2a96ba51c39d2bd7749b5ea332e",
+                "reference": "4dc928b47c05a2a96ba51c39d2bd7749b5ea332e",
                 "shasum": ""
             },
             "require": {
@@ -1246,30 +1081,6 @@
                 "doctrine/inflector": "^2.0.5",
                 "dragonmantank/cron-expression": "^3.4",
                 "egulias/email-validator": "^3.2.1|^4.0",
-=======
-            "time": "2026-08-24T17:13:02+00:00"
-        },
-        {
-            "name": "laravel/framework",
-            "version": "v13.38.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "c42f9abd4a3d2f9a3cd6be109255ddce8092ceb8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c42f9abd4a3d2f9a3cd6be109255ddce8092ceb8",
-                "reference": "c42f9abd4a3d2f9a3cd6be109255ddce8092ceb8",
-                "shasum": ""
-            },
-            "require": {
-                "brick/math": "^0.14.2 || ^0.15 || ^0.16 || ^0.17 || ^0.18 || ^0.19 || ^0.20 || ^1.0",
-                "composer-runtime-api": "^2.2",
-                "doctrine/inflector": "^2.0.5",
-                "dragonmantank/cron-expression": "^3.4",
-                "egulias/email-validator": "^4.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "ext-ctype": "*",
                 "ext-filter": "*",
                 "ext-hash": "*",
@@ -1278,24 +1089,14 @@
                 "ext-session": "*",
                 "ext-tokenizer": "*",
                 "fruitcake/php-cors": "^1.3",
-<<<<<<< HEAD
                 "guzzlehttp/guzzle": "^7.8.2",
                 "guzzlehttp/uri-template": "^1.0",
                 "laravel/prompts": "^0.3.0",
                 "laravel/serializable-closure": "^1.3|^2.0",
-=======
-                "guzzlehttp/guzzle": "^7.8.2 || ^8.0",
-                "guzzlehttp/promises": "^2.0.3 || ^3.0",
-                "guzzlehttp/psr7": "^2.9 || ^3.0",
-                "guzzlehttp/uri-template": "^1.0 || ^2.0",
-                "laravel/prompts": "^0.3.25",
-                "laravel/serializable-closure": "^2.0.10",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "league/commonmark": "^2.8.1",
                 "league/flysystem": "^3.25.1",
                 "league/flysystem-local": "^3.25.1",
                 "league/uri": "^7.5.1",
-<<<<<<< HEAD
                 "monolog/monolog": "^3.0",
                 "nesbot/carbon": "^3.8.4",
                 "nunomaduro/termwind": "^2.0",
@@ -1318,31 +1119,6 @@
                 "symfony/routing": "^7.2.0",
                 "symfony/uid": "^7.2.0",
                 "symfony/var-dumper": "^7.2.0",
-=======
-                "monolog/monolog": "^3.10",
-                "nesbot/carbon": "^3.8.4",
-                "nunomaduro/termwind": "^2.0",
-                "php": "^8.3",
-                "psr/container": "^1.1.1 || ^2.0.1",
-                "psr/http-message": "^1.0 || ^2.0",
-                "psr/log": "^1.0 || ^2.0 || ^3.0",
-                "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
-                "ramsey/uuid": "^4.7",
-                "symfony/console": "^7.4.0 || ^8.0.0",
-                "symfony/error-handler": "^7.4.0 || ^8.0.0",
-                "symfony/finder": "^7.4.0 || ^8.0.0",
-                "symfony/http-foundation": "^7.4.0 || ^8.0.0",
-                "symfony/http-kernel": "^7.4.0 || ^8.0.0",
-                "symfony/mailer": "^7.4.0 || ^8.0.0",
-                "symfony/mime": "^7.4.0 || ^8.0.0",
-                "symfony/polyfill-php84": "^1.36",
-                "symfony/polyfill-php85": "^1.36",
-                "symfony/polyfill-php86": "^1.36",
-                "symfony/process": "^7.4.5 || ^8.0.5",
-                "symfony/routing": "^7.4.0 || ^8.0.0",
-                "symfony/uid": "^7.4.0 || ^8.0.0",
-                "symfony/var-dumper": "^7.4.0 || ^8.0.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "tijsverkoyen/css-to-inline-styles": "^2.2.5",
                 "vlucas/phpdotenv": "^5.6.1",
                 "voku/portable-ascii": "^2.0.2"
@@ -1351,15 +1127,9 @@
                 "tightenco/collect": "<5.5.33"
             },
             "provide": {
-<<<<<<< HEAD
                 "psr/container-implementation": "1.1|2.0",
                 "psr/log-implementation": "1.0|2.0|3.0",
                 "psr/simple-cache-implementation": "1.0|2.0|3.0"
-=======
-                "psr/container-implementation": "1.1 || 2.0",
-                "psr/log-implementation": "1.0 || 2.0 || 3.0",
-                "psr/simple-cache-implementation": "1.0 || 2.0 || 3.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "replace": {
                 "illuminate/auth": "self.version",
@@ -1380,10 +1150,6 @@
                 "illuminate/filesystem": "self.version",
                 "illuminate/hashing": "self.version",
                 "illuminate/http": "self.version",
-<<<<<<< HEAD
-=======
-                "illuminate/image": "self.version",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "illuminate/json-schema": "self.version",
                 "illuminate/log": "self.version",
                 "illuminate/macroable": "self.version",
@@ -1409,12 +1175,8 @@
                 "aws/aws-sdk-php": "^3.322.9",
                 "ext-gmp": "*",
                 "fakerphp/faker": "^1.24",
-<<<<<<< HEAD
                 "guzzlehttp/promises": "^2.0.3",
                 "guzzlehttp/psr7": "^2.4",
-=======
-                "intervention/image": "^4.2",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "laravel/pint": "^1.18",
                 "league/flysystem-aws-s3-v3": "^3.25.1",
                 "league/flysystem-ftp": "^3.25.1",
@@ -1423,7 +1185,6 @@
                 "league/flysystem-sftp-v3": "^3.25.1",
                 "mockery/mockery": "^1.6.10",
                 "opis/json-schema": "^2.4.1",
-<<<<<<< HEAD
                 "orchestra/testbench-core": "^10.15.0",
                 "pda/pheanstalk": "^5.0.6|^7.0.0",
                 "php-http/discovery": "^1.15",
@@ -1435,31 +1196,11 @@
                 "symfony/http-client": "^7.2.0",
                 "symfony/psr-http-message-bridge": "^7.2.0",
                 "symfony/translation": "^7.2.0"
-=======
-                "orchestra/testbench-core": "^11.6.0",
-                "pda/pheanstalk": "^7.0.0 || ^8.0.0",
-                "php-http/discovery": "^1.15",
-                "phpstan/phpstan": "2.3.1",
-                "phpunit/phpunit": "^11.5.50 || ^12.5.8 || ^13.0.3",
-                "predis/predis": "^2.3 || ^3.0",
-                "rector/rector": "2.6.3",
-                "resend/resend-php": "^1.0",
-                "symfony/cache": "^7.4.0 || ^8.0.0",
-                "symfony/http-client": "^7.4.0 || ^8.0.0",
-                "symfony/mercure": "^0.8.0",
-                "symfony/psr-http-message-bridge": "^7.4.0 || ^8.0.0",
-                "symfony/translation": "^7.4.0 || ^8.0.0",
-                "web-token/jwt-library": "^4.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "suggest": {
                 "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
                 "aws/aws-sdk-php": "Required to use the SQS queue driver, DynamoDb failed job storage, and SES mail driver (^3.322.9).",
-<<<<<<< HEAD
                 "brianium/paratest": "Required to run tests in parallel (^7.0|^8.0).",
-=======
-                "brianium/paratest": "Required to run tests in parallel (^7.0 || ^8.0).",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "ext-apcu": "Required to use the APC cache driver.",
                 "ext-fileinfo": "Required to use the Filesystem class.",
                 "ext-ftp": "Required to use the Flysystem FTP driver.",
@@ -1468,16 +1209,9 @@
                 "ext-pcntl": "Required to use all features of the queue worker and console signal trapping.",
                 "ext-pdo": "Required to use all database features.",
                 "ext-posix": "Required to use all features of the queue worker.",
-<<<<<<< HEAD
                 "ext-redis": "Required to use the Redis cache and queue drivers (^4.0|^5.0|^6.0).",
                 "fakerphp/faker": "Required to generate fake data using the fake() helper (^1.23).",
                 "filp/whoops": "Required for friendly error pages in development (^2.14.3).",
-=======
-                "ext-redis": "Required to use the Redis cache and queue drivers (^4.0 || ^5.0 || ^6.0).",
-                "fakerphp/faker": "Required to generate fake data using the fake() helper (^1.23).",
-                "filp/whoops": "Required for friendly error pages in development (^2.14.3).",
-                "intervention/image": "Required to use the image processing features (^4.2).",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "laravel/tinker": "Required to use the tinker console command (^2.0).",
                 "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^3.25.1).",
                 "league/flysystem-ftp": "Required to use the Flysystem FTP driver (^3.25.1).",
@@ -1485,7 +1219,6 @@
                 "league/flysystem-read-only": "Required to use read-only disks (^3.25.1)",
                 "league/flysystem-sftp-v3": "Required to use the Flysystem SFTP driver (^3.25.1).",
                 "mockery/mockery": "Required to use mocking (^1.6).",
-<<<<<<< HEAD
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (^5.0).",
                 "php-http/discovery": "Required to use PSR-7 bridging features (^1.15).",
                 "phpunit/phpunit": "Required to use assertions and run tests (^10.5.35|^11.5.3|^12.0.1).",
@@ -1499,32 +1232,11 @@
                 "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^7.2).",
                 "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^7.2).",
                 "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^7.2)."
-=======
-                "pda/pheanstalk": "Required to use the beanstalk queue driver (^7.0 || ^8.0).",
-                "php-http/discovery": "Required to use PSR-7 bridging features (^1.15).",
-                "phpunit/phpunit": "Required to use assertions and run tests (^11.5.50 || ^12.5.8 || ^13.0.3).",
-                "predis/predis": "Required to use the predis connector (^2.3 || ^3.0).",
-                "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^6.0 || ^7.0).",
-                "resend/resend-php": "Required to enable support for the Resend mail transport (^0.10.0 || ^1.0).",
-                "spatie/fork": "Required to use the 'fork' concurrency driver (^1.2).",
-                "symfony/cache": "Required to PSR-6 cache bridge (^7.4 || ^8.0).",
-                "symfony/filesystem": "Required to enable support for relative symbolic links (^7.4 || ^8.0).",
-                "symfony/http-client": "Required to enable support for the Symfony API mail transports (^7.4 || ^8.0).",
-                "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^7.4 || ^8.0).",
-                "symfony/mercure": "Required to use the Mercure broadcast driver (^0.8).",
-                "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^7.4 || ^8.0).",
-                "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^7.4 || ^8.0).",
-                "web-token/jwt-library": "Required to sign Mercure JWTs and use end-to-end encrypted channels (^4.1)."
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "12.x-dev"
-=======
-                    "dev-master": "13.0.x-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -1569,11 +1281,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-<<<<<<< HEAD
-            "time": "2026-10-21T12:55:36+00:00"
-=======
-            "time": "2026-10-20T10:45:58+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
+            "time": "2026-10-27T14:07:51+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -1696,7 +1404,6 @@
         },
         {
             "name": "laravel/tinker",
-<<<<<<< HEAD
             "version": "v2.11.1",
             "source": {
                 "type": "git",
@@ -1716,42 +1423,14 @@
                 "php": "^7.2.5|^8.0",
                 "psy/psysh": "^0.11.1|^0.12.0",
                 "symfony/var-dumper": "^4.3.4|^5.0|^6.0|^7.0|^8.0"
-=======
-            "version": "v3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/tinker.git",
-                "reference": "4faba77764bd33411735936acdf30446d058c78b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/4faba77764bd33411735936acdf30446d058c78b",
-                "reference": "4faba77764bd33411735936acdf30446d058c78b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-                "illuminate/contracts": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-                "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
-                "php": "^8.1",
-                "psy/psysh": "^0.12.0",
-                "symfony/var-dumper": "^5.4|^6.0|^7.0|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "require-dev": {
                 "mockery/mockery": "~1.3.3|^1.4.2",
                 "phpstan/phpstan": "^1.10",
-<<<<<<< HEAD
                 "phpunit/phpunit": "^8.5.8|^9.3.3|^10.0"
             },
             "suggest": {
                 "illuminate/database": "The Illuminate Database package (^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0)."
-=======
-                "phpunit/phpunit": "^10.5|^11.5"
-            },
-            "suggest": {
-                "illuminate/database": "The Illuminate Database package (^8.0|^9.0|^10.0|^11.0|^12.0|^13.0)."
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
@@ -1759,12 +1438,6 @@
                     "providers": [
                         "Laravel\\Tinker\\TinkerServiceProvider"
                     ]
-<<<<<<< HEAD
-=======
-                },
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -1791,15 +1464,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/laravel/tinker/tree/v2.11.1"
             },
             "time": "2026-02-06T14:12:35+00:00"
-=======
-                "source": "https://github.com/laravel/tinker/tree/v3.0.2"
-            },
-            "time": "2026-03-17T14:54:13+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "league/commonmark",
@@ -2180,21 +1847,21 @@
         },
         {
             "name": "league/uri",
-            "version": "7.9.0",
+            "version": "7.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "fcc872a3d872aa13f935e0cd1887b9abb06da07f"
+                "reference": "40403f5c3141457a61f7f1aba6706e8fa4a0ece5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/fcc872a3d872aa13f935e0cd1887b9abb06da07f",
-                "reference": "fcc872a3d872aa13f935e0cd1887b9abb06da07f",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/40403f5c3141457a61f7f1aba6706e8fa4a0ece5",
+                "reference": "40403f5c3141457a61f7f1aba6706e8fa4a0ece5",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "league/uri-interfaces": "^7.9.0",
+                "league/uri-interfaces": "^7.9.1",
                 "php": "^8.1",
                 "psr/http-factory": "^1"
             },
@@ -2267,7 +1934,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri/tree/7.9.0"
+                "source": "https://github.com/thephpleague/uri/tree/7.9.1"
             },
             "funding": [
                 {
@@ -2275,20 +1942,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-16T15:19:33+00:00"
+            "time": "2026-10-27T07:14:23+00:00"
         },
         {
             "name": "league/uri-interfaces",
-            "version": "7.9.0",
+            "version": "7.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri-interfaces.git",
-                "reference": "eb5f6d24e6a4fe0a8e9c78ded4eb1dfff1404f58"
+                "reference": "994300a79e17f179112dc259f8df0c4de982f736"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/eb5f6d24e6a4fe0a8e9c78ded4eb1dfff1404f58",
-                "reference": "eb5f6d24e6a4fe0a8e9c78ded4eb1dfff1404f58",
+                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/994300a79e17f179112dc259f8df0c4de982f736",
+                "reference": "994300a79e17f179112dc259f8df0c4de982f736",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2018,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.9.0"
+                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.9.1"
             },
             "funding": [
                 {
@@ -2359,7 +2026,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-16T15:19:33+00:00"
+            "time": "2026-10-27T07:14:23+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2468,7 +2135,6 @@
         },
         {
             "name": "nesbot/carbon",
-<<<<<<< HEAD
             "version": "3.15.1",
             "source": {
                 "type": "git",
@@ -2479,18 +2145,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/ce0e5636fae7d1e99856eb70cae4c719a284aa08",
                 "reference": "ce0e5636fae7d1e99856eb70cae4c719a284aa08",
-=======
-            "version": "3.15.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "217d38553209bdb44e01590d9e9a2e4df8354cce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/217d38553209bdb44e01590d9e9a2e4df8354cce",
-                "reference": "217d38553209bdb44e01590d9e9a2e4df8354cce",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
@@ -2583,11 +2237,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-25T14:32:48+00:00"
-=======
-            "time": "2026-10-18T18:27:53+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "nette/schema",
@@ -3458,7 +3108,6 @@
             "time": "2026-06-29T15:41:09+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -3503,8 +3152,6 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-=======
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             "name": "ramsey/collection",
             "version": "2.1.1",
             "source": {
@@ -3660,24 +3307,6 @@
         },
         {
             "name": "symfony/clock",
-<<<<<<< HEAD
-            "version": "v7.4.21",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/clock.git",
-                "reference": "07437f612dca89c1894c1db04491002b1e798f03"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/clock/zipball/07437f612dca89c1894c1db04491002b1e798f03",
-                "reference": "07437f612dca89c1894c1db04491002b1e798f03",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "psr/clock": "^1.0",
-                "symfony/polyfill-php83": "^1.28"
-=======
             "version": "v8.1.9",
             "source": {
                 "type": "git",
@@ -3693,7 +3322,6 @@
             "require": {
                 "php": ">=8.4.1",
                 "psr/clock": "^1.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "provide": {
                 "psr/clock-implementation": "1.0"
@@ -3732,11 +3360,7 @@
                 "time"
             ],
             "support": {
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/clock/tree/v7.4.21"
-=======
                 "source": "https://github.com/symfony/clock/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -3756,8 +3380,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-10-12T14:31:36+00:00"
+            "time": "2026-10-12T14:32:04+00:00"
         },
         {
             "name": "symfony/console",
@@ -3786,42 +3409,12 @@
                 "symfony/event-dispatcher": "<6.4",
                 "symfony/lock": "<6.4",
                 "symfony/process": "<6.4"
-=======
-            "time": "2026-10-12T14:32:04+00:00"
-        },
-        {
-            "name": "symfony/console",
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "630e74196a2635ec0f06c12bd3fb47cfedf85157"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/630e74196a2635ec0f06c12bd3fb47cfedf85157",
-                "reference": "630e74196a2635ec0f06c12bd3fb47cfedf85157",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
-                "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/polyfill-mbstring": "^1.0",
-                "symfony/polyfill-php85": "^1.32",
-                "symfony/service-contracts": "^2.5|^3",
-                "symfony/string": "^7.4.6|^8.0.6"
-            },
-            "conflict": {
-                "symfony/dependency-injection": "<8.1",
-                "symfony/event-dispatcher": "<8.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-<<<<<<< HEAD
                 "symfony/config": "^6.4|^7.0|^8.0",
                 "symfony/dependency-injection": "^6.4|^7.0|^8.0",
                 "symfony/event-dispatcher": "^6.4|^7.0|^8.0",
@@ -3832,22 +3425,6 @@
                 "symfony/process": "^6.4|^7.0|^8.0",
                 "symfony/stopwatch": "^6.4|^7.0|^8.0",
                 "symfony/var-dumper": "^6.4|^7.0|^8.0"
-=======
-                "symfony/config": "^7.4|^8.0",
-                "symfony/dependency-injection": "^8.1",
-                "symfony/event-dispatcher": "^8.1",
-                "symfony/filesystem": "^7.4|^8.0",
-                "symfony/http-foundation": "^7.4|^8.0",
-                "symfony/http-kernel": "^7.4|^8.0",
-                "symfony/lock": "^7.4|^8.0",
-                "symfony/messenger": "^7.4|^8.0",
-                "symfony/mime": "^7.4|^8.0",
-                "symfony/process": "^7.4|^8.0",
-                "symfony/stopwatch": "^7.4|^8.0",
-                "symfony/uid": "^7.4|^8.0",
-                "symfony/validator": "^7.4|^8.0",
-                "symfony/var-dumper": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -3881,11 +3458,7 @@
                 "terminal"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/console/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -3905,27 +3478,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-12T18:45:38+00:00"
-        },
-        {
-            "name": "symfony/css-selector",
-            "version": "v7.4.18",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/css-selector.git",
-                "reference": "fecf40067fc8d8880ea87b8ac227600b9aadd1d0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/fecf40067fc8d8880ea87b8ac227600b9aadd1d0",
-                "reference": "fecf40067fc8d8880ea87b8ac227600b9aadd1d0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-=======
-            "time": "2026-10-12T19:11:16+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -3943,7 +3496,6 @@
             },
             "require": {
                 "php": ">=8.4.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -3975,11 +3527,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/css-selector/tree/v7.4.18"
-=======
                 "source": "https://github.com/symfony/css-selector/tree/v8.1.6"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -3999,11 +3547,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-08-23T10:03:40+00:00"
-=======
             "time": "2026-08-23T10:06:25+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4078,7 +3622,6 @@
         },
         {
             "name": "symfony/error-handler",
-<<<<<<< HEAD
             "version": "v7.4.20",
             "source": {
                 "type": "git",
@@ -4106,34 +3649,6 @@
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/http-kernel": "^6.4|^7.0|^8.0",
                 "symfony/serializer": "^6.4|^7.0|^8.0",
-=======
-            "version": "v8.1.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/error-handler.git",
-                "reference": "c146daceccd5d4f864c051b233c276641cec527b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/error-handler/zipball/c146daceccd5d4f864c051b233c276641cec527b",
-                "reference": "c146daceccd5d4f864c051b233c276641cec527b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
-                "psr/log": "^1|^2|^3",
-                "symfony/polyfill-php85": "^1.32",
-                "symfony/var-dumper": "^7.4|^8.0"
-            },
-            "conflict": {
-                "symfony/deprecation-contracts": "<2.5"
-            },
-            "require-dev": {
-                "symfony/console": "^7.4|^8.0",
-                "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/http-kernel": "^7.4|^8.0",
-                "symfony/serializer": "^7.4|^8.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/webpack-encore-bundle": "^1.0|^2.0"
             },
             "bin": [
@@ -4165,11 +3680,7 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v7.4.20"
-=======
-                "source": "https://github.com/symfony/error-handler/tree/v8.1.8"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -4189,31 +3700,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-09-22T18:56:40+00:00"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "v7.4.17",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "d269974ee93c61d03620ffee358355bfdb471d66"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d269974ee93c61d03620ffee358355bfdb471d66",
-                "reference": "d269974ee93c61d03620ffee358355bfdb471d66",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "symfony/event-dispatcher-contracts": "^2.5|^3"
-            },
-            "conflict": {
-                "symfony/dependency-injection": "<6.4",
-=======
-            "time": "2026-09-22T18:58:53+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -4236,7 +3723,6 @@
             },
             "conflict": {
                 "symfony/security-http": "<7.4",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/service-contracts": "<2.5"
             },
             "provide": {
@@ -4245,16 +3731,6 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
-<<<<<<< HEAD
-                "symfony/config": "^6.4|^7.0|^8.0",
-                "symfony/dependency-injection": "^6.4|^7.0|^8.0",
-                "symfony/error-handler": "^6.4|^7.0|^8.0",
-                "symfony/expression-language": "^6.4|^7.0|^8.0",
-                "symfony/framework-bundle": "^6.4|^7.0|^8.0",
-                "symfony/http-foundation": "^6.4|^7.0|^8.0",
-                "symfony/service-contracts": "^2.5|^3",
-                "symfony/stopwatch": "^6.4|^7.0|^8.0"
-=======
                 "symfony/config": "^7.4|^8.0",
                 "symfony/dependency-injection": "^7.4|^8.0",
                 "symfony/error-handler": "^7.4|^8.0",
@@ -4263,7 +3739,6 @@
                 "symfony/http-foundation": "^7.4|^8.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/stopwatch": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -4291,11 +3766,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/event-dispatcher/tree/v7.4.17"
-=======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v8.1.5"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -4315,11 +3786,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-08-21T17:40:08+00:00"
-=======
             "time": "2026-08-21T17:47:34+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -4403,7 +3870,6 @@
         },
         {
             "name": "symfony/finder",
-<<<<<<< HEAD
             "version": "v7.4.20",
             "source": {
                 "type": "git",
@@ -4421,25 +3887,6 @@
             },
             "require-dev": {
                 "symfony/filesystem": "^6.4|^7.0|^8.0"
-=======
-            "version": "v8.1.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/finder.git",
-                "reference": "bd4fed193a3132c91c5c93595cbfc78988915822"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/bd4fed193a3132c91c5c93595cbfc78988915822",
-                "reference": "bd4fed193a3132c91c5c93595cbfc78988915822",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1"
-            },
-            "require-dev": {
-                "symfony/filesystem": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -4467,11 +3914,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v7.4.20"
-=======
-                "source": "https://github.com/symfony/finder/tree/v8.1.8"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -4491,7 +3934,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-09-26T06:31:10+00:00"
         },
         {
@@ -4510,31 +3952,10 @@
             },
             "require": {
                 "php": ">=8.2",
-=======
-            "time": "2026-09-26T06:33:49+00:00"
-        },
-        {
-            "name": "symfony/http-foundation",
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "7850897fb8659f98491b03be79ac48600bdaf9ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/7850897fb8659f98491b03be79ac48600bdaf9ab",
-                "reference": "7850897fb8659f98491b03be79ac48600bdaf9ab",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-mbstring": "^1.1"
             },
             "conflict": {
-<<<<<<< HEAD
                 "doctrine/dbal": "<3.6",
                 "symfony/cache": "<6.4.12|>=7.0,<7.1.5"
             },
@@ -4548,20 +3969,6 @@
                 "symfony/http-kernel": "^6.4|^7.0|^8.0",
                 "symfony/mime": "^6.4|^7.0|^8.0",
                 "symfony/rate-limiter": "^6.4|^7.0|^8.0"
-=======
-                "doctrine/dbal": "<4.3"
-            },
-            "require-dev": {
-                "doctrine/dbal": "^4.3",
-                "predis/predis": "^1.1|^2.0",
-                "symfony/cache": "^7.4|^8.0",
-                "symfony/clock": "^7.4|^8.0",
-                "symfony/dependency-injection": "^7.4|^8.0",
-                "symfony/expression-language": "^7.4|^8.0",
-                "symfony/http-kernel": "^7.4|^8.0",
-                "symfony/mime": "^7.4|^8.0",
-                "symfony/rate-limiter": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -4589,11 +3996,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/http-foundation/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -4613,7 +4016,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-08T16:56:12+00:00"
         },
         {
@@ -4636,35 +4038,10 @@
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/error-handler": "^6.4|^7.0|^8.0",
                 "symfony/event-dispatcher": "^7.3|^8.0",
-=======
-            "time": "2026-10-08T16:57:43+00:00"
-        },
-        {
-            "name": "symfony/http-kernel",
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "55c6935bb4c004a72b55f723e79d5404881dcad3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/55c6935bb4c004a72b55f723e79d5404881dcad3",
-                "reference": "55c6935bb4c004a72b55f723e79d5404881dcad3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
-                "psr/log": "^1|^2|^3",
-                "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/error-handler": "^7.4|^8.0",
-                "symfony/event-dispatcher": "^7.4|^8.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/http-foundation": "^7.4|^8.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-<<<<<<< HEAD
                 "symfony/browser-kit": "<6.4",
                 "symfony/cache": "<6.4",
                 "symfony/config": "<6.4",
@@ -4683,23 +4060,12 @@
                 "symfony/validator": "<6.4",
                 "symfony/var-dumper": "<6.4",
                 "twig/twig": "<3.12"
-=======
-                "symfony/dependency-injection": "<8.1",
-                "symfony/flex": "<2.10",
-                "symfony/http-client-contracts": "<2.5",
-                "symfony/serializer": "<7.4.15|>=8.0,<8.0.15|>=8.1,<8.1.2",
-                "symfony/translation-contracts": "<2.5",
-                "symfony/var-dumper": "<8.1",
-                "symfony/web-profiler-bundle": "<8.1",
-                "twig/twig": "<3.21"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/cache": "^1.0|^2.0|^3.0",
-<<<<<<< HEAD
                 "symfony/browser-kit": "^6.4|^7.0|^8.0",
                 "symfony/clock": "^6.4|^7.0|^8.0",
                 "symfony/config": "^6.4|^7.0|^8.0",
@@ -4722,31 +4088,6 @@
                 "symfony/var-dumper": "^6.4|^7.0|^8.0",
                 "symfony/var-exporter": "^6.4|^7.0|^8.0",
                 "twig/twig": "^3.12|^4.0"
-=======
-                "symfony/browser-kit": "^7.4|^8.0",
-                "symfony/clock": "^7.4|^8.0",
-                "symfony/config": "^7.4|^8.0",
-                "symfony/console": "^7.4|^8.0",
-                "symfony/css-selector": "^7.4|^8.0",
-                "symfony/dependency-injection": "^8.1",
-                "symfony/dom-crawler": "^7.4|^8.0",
-                "symfony/expression-language": "^7.4|^8.0",
-                "symfony/finder": "^7.4|^8.0",
-                "symfony/http-client-contracts": "^2.5|^3",
-                "symfony/process": "^7.4|^8.0",
-                "symfony/property-access": "^7.4|^8.0",
-                "symfony/rate-limiter": "^7.4|^8.0",
-                "symfony/routing": "^7.4|^8.0",
-                "symfony/serializer": "^7.4|^8.0",
-                "symfony/stopwatch": "^7.4|^8.0",
-                "symfony/translation": "^7.4|^8.0",
-                "symfony/translation-contracts": "^2.5|^3",
-                "symfony/uid": "^7.4|^8.0",
-                "symfony/validator": "^7.4|^8.0",
-                "symfony/var-dumper": "^8.1",
-                "symfony/var-exporter": "^7.4|^8.0",
-                "twig/twig": "^3.21|^4.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -4774,11 +4115,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/http-kernel/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -4798,7 +4135,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-14T06:44:08+00:00"
         },
         {
@@ -4813,27 +4149,10 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mailer/zipball/6f6f2441bef07a42d2617b9b3aadf04a321aa514",
                 "reference": "6f6f2441bef07a42d2617b9b3aadf04a321aa514",
-=======
-            "time": "2026-10-14T06:47:03+00:00"
-        },
-        {
-            "name": "symfony/mailer",
-            "version": "v8.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/mailer.git",
-                "reference": "8783380ecdafa23d36fc90c5873fd44b635c6e10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mailer/zipball/8783380ecdafa23d36fc90c5873fd44b635c6e10",
-                "reference": "8783380ecdafa23d36fc90c5873fd44b635c6e10",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "egulias/email-validator": "^2.1.10|^3|^4",
-<<<<<<< HEAD
                 "php": ">=8.2",
                 "psr/event-dispatcher": "^1",
                 "psr/log": "^1|^2|^3",
@@ -4853,23 +4172,6 @@
                 "symfony/http-client": "^6.4|^7.0|^8.0",
                 "symfony/messenger": "^6.4|^7.0|^8.0",
                 "symfony/twig-bridge": "^6.4|^7.0|^8.0"
-=======
-                "php": ">=8.4.1",
-                "psr/event-dispatcher": "^1",
-                "psr/log": "^1|^2|^3",
-                "symfony/event-dispatcher": "^7.4|^8.0",
-                "symfony/mime": "^7.4|^8.0",
-                "symfony/service-contracts": "^2.5|^3"
-            },
-            "conflict": {
-                "symfony/http-client-contracts": "<2.5"
-            },
-            "require-dev": {
-                "symfony/console": "^7.4|^8.0",
-                "symfony/http-client": "^7.4|^8.0",
-                "symfony/messenger": "^7.4|^8.0",
-                "symfony/twig-bridge": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -4897,11 +4199,7 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/mailer/tree/v7.4.19"
-=======
-                "source": "https://github.com/symfony/mailer/tree/v8.1.7"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -4921,7 +4219,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-09-15T06:01:15+00:00"
         },
         {
@@ -4941,57 +4238,25 @@
             "require": {
                 "php": ">=8.2",
                 "symfony/deprecation-contracts": "^2.5|^3",
-=======
-            "time": "2026-09-15T06:01:24+00:00"
-        },
-        {
-            "name": "symfony/mime",
-            "version": "v8.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/mime.git",
-                "reference": "773ac57f20e2795bdadb65b5b1b5f4850d498283"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/773ac57f20e2795bdadb65b5b1b5f4850d498283",
-                "reference": "773ac57f20e2795bdadb65b5b1b5f4850d498283",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0"
             },
             "conflict": {
                 "egulias/email-validator": "~3.0.0",
                 "phpdocumentor/reflection-docblock": "<5.2|>=7",
-<<<<<<< HEAD
                 "phpdocumentor/type-resolver": "<1.5.1",
                 "symfony/mailer": "<6.4",
                 "symfony/serializer": "<6.4.3|>7.0,<7.0.3"
-=======
-                "phpdocumentor/type-resolver": "<1.5.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10|^3.1|^4",
                 "league/html-to-markdown": "^5.0",
                 "phpdocumentor/reflection-docblock": "^5.2|^6.0",
-<<<<<<< HEAD
                 "symfony/dependency-injection": "^6.4|^7.0|^8.0",
                 "symfony/process": "^6.4|^7.0|^8.0",
                 "symfony/property-access": "^6.4|^7.0|^8.0",
                 "symfony/property-info": "^6.4|^7.0|^8.0",
                 "symfony/serializer": "^6.4.44|^7.4.17|^8.1.5"
-=======
-                "symfony/dependency-injection": "^7.4|^8.0",
-                "symfony/process": "^7.4|^8.0",
-                "symfony/property-access": "^7.4|^8.0",
-                "symfony/property-info": "^7.4|^8.0",
-                "symfony/serializer": "^7.4.17|^8.1.5"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -5023,11 +4288,7 @@
                 "mime-type"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v7.4.19"
-=======
-                "source": "https://github.com/symfony/mime/tree/v8.1.7"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -5047,11 +4308,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-09-04T10:45:44+00:00"
-=======
-            "time": "2026-09-04T11:02:17+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -5138,16 +4395,16 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.43.0",
+            "version": "v1.43.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "5cac8f4db97208823aa353f59a01faad2da52c75"
+                "reference": "5a8f33c87aeecffce24e721b5064fab05f4becf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/5cac8f4db97208823aa353f59a01faad2da52c75",
-                "reference": "5cac8f4db97208823aa353f59a01faad2da52c75",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/5a8f33c87aeecffce24e721b5064fab05f4becf8",
+                "reference": "5a8f33c87aeecffce24e721b5064fab05f4becf8",
                 "shasum": ""
             },
             "require": {
@@ -5196,7 +4453,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.43.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.43.3"
             },
             "funding": [
                 {
@@ -5216,7 +4473,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-25T15:46:47+00:00"
+            "time": "2026-10-15T09:18:53+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -5392,16 +4649,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.43.0",
+            "version": "v1.43.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "4d5d331bf731e0aedbc6b2f5e61135b7b7996a72"
+                "reference": "122889ed24dc000165bcbfd77ec412f15cbdfc6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/4d5d331bf731e0aedbc6b2f5e61135b7b7996a72",
-                "reference": "4d5d331bf731e0aedbc6b2f5e61135b7b7996a72",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/122889ed24dc000165bcbfd77ec412f15cbdfc6a",
+                "reference": "122889ed24dc000165bcbfd77ec412f15cbdfc6a",
                 "shasum": ""
             },
             "require": {
@@ -5453,7 +4710,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.43.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.43.3"
             },
             "funding": [
                 {
@@ -5473,7 +4730,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-24T15:19:04+00:00"
+            "time": "2026-10-28T09:35:49+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -5560,7 +4817,6 @@
             "time": "2026-09-25T15:50:05+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "symfony/polyfill-php83",
             "version": "v1.43.0",
             "source": {
@@ -5572,19 +4828,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/80ccff923a8d61f73ebe9da0aa94e25232f004ce",
                 "reference": "80ccff923a8d61f73ebe9da0aa94e25232f004ce",
-=======
-            "name": "symfony/polyfill-php82",
-            "version": "v1.43.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php82.git",
-                "reference": "843bbe8b2a7934307b749751eede0f111f5d1cfc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/843bbe8b2a7934307b749751eede0f111f5d1cfc",
-                "reference": "843bbe8b2a7934307b749751eede0f111f5d1cfc",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
@@ -5602,11 +4845,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-<<<<<<< HEAD
                     "Symfony\\Polyfill\\Php83\\": ""
-=======
-                    "Symfony\\Polyfill\\Php82\\": ""
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -5626,11 +4865,7 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-<<<<<<< HEAD
             "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
-=======
-            "description": "Symfony polyfill backporting some PHP 8.2+ features to lower PHP versions",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             "homepage": "https://symfony.com",
             "keywords": [
                 "compatibility",
@@ -5639,11 +4874,7 @@
                 "shim"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.43.0"
-=======
-                "source": "https://github.com/symfony/polyfill-php82/tree/v1.43.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -5826,89 +5057,6 @@
             "time": "2026-09-25T15:46:47+00:00"
         },
         {
-<<<<<<< HEAD
-=======
-            "name": "symfony/polyfill-php86",
-            "version": "v1.43.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php86.git",
-                "reference": "8840df45b24f33a49dc419fa18dc0057231ae1d8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php86/zipball/8840df45b24f33a49dc419fa18dc0057231ae1d8",
-                "reference": "8840df45b24f33a49dc419fa18dc0057231ae1d8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "url": "https://github.com/symfony/polyfill",
-                    "name": "symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php86\\": ""
-                },
-                "classmap": [
-                    "Resources/stubs"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 8.6+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php86/tree/v1.43.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/nicolas-grekas",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-09-25T15:46:47+00:00"
-        },
-        {
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             "name": "symfony/polyfill-time",
             "version": "v1.42.0",
             "source": {
@@ -6076,7 +5224,6 @@
         },
         {
             "name": "symfony/process",
-<<<<<<< HEAD
             "version": "v7.4.21",
             "source": {
                 "type": "git",
@@ -6091,22 +5238,6 @@
             },
             "require": {
                 "php": ">=8.2"
-=======
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/process.git",
-                "reference": "59a682fd049b2d4d37c444f5ac21b7d01b8c7189"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/59a682fd049b2d4d37c444f5ac21b7d01b8c7189",
-                "reference": "59a682fd049b2d4d37c444f5ac21b7d01b8c7189",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -6134,11 +5265,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/process/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -6158,7 +5285,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-08T16:56:12+00:00"
         },
         {
@@ -6191,35 +5317,6 @@
                 "symfony/expression-language": "^6.4|^7.0|^8.0",
                 "symfony/http-foundation": "^6.4|^7.0|^8.0",
                 "symfony/yaml": "^6.4|^7.0|^8.0"
-=======
-            "time": "2026-10-08T16:57:43+00:00"
-        },
-        {
-            "name": "symfony/routing",
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/routing.git",
-                "reference": "edb06fb6ced3c1faaaed74c1c6c0f176a614c330"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/edb06fb6ced3c1faaaed74c1c6c0f176a614c330",
-                "reference": "edb06fb6ced3c1faaaed74c1c6c0f176a614c330",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
-                "symfony/deprecation-contracts": "^2.5|^3"
-            },
-            "require-dev": {
-                "psr/log": "^1|^2|^3",
-                "symfony/config": "^7.4|^8.0",
-                "symfony/dependency-injection": "^7.4|^8.0",
-                "symfony/expression-language": "^7.4|^8.0",
-                "symfony/http-foundation": "^7.4|^8.0",
-                "symfony/yaml": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -6253,11 +5350,7 @@
                 "url"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/routing/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -6277,11 +5370,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-11T18:40:59+00:00"
-=======
-            "time": "2026-10-12T12:37:13+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "symfony/service-contracts",
@@ -6372,27 +5461,6 @@
         },
         {
             "name": "symfony/string",
-<<<<<<< HEAD
-            "version": "v7.4.21",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/string.git",
-                "reference": "9bc35d074ad16a58c21cd52b18c5cacc4f4c3981"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/9bc35d074ad16a58c21cd52b18c5cacc4f4c3981",
-                "reference": "9bc35d074ad16a58c21cd52b18c5cacc4f4c3981",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "symfony/deprecation-contracts": "^2.5|^3.0",
-                "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-intl-grapheme": "~1.33",
-                "symfony/polyfill-intl-normalizer": "~1.0",
-                "symfony/polyfill-mbstring": "~1.0"
-=======
             "version": "v8.1.9",
             "source": {
                 "type": "git",
@@ -6411,25 +5479,16 @@
                 "symfony/polyfill-intl-grapheme": "^1.33",
                 "symfony/polyfill-intl-normalizer": "^1.0",
                 "symfony/polyfill-mbstring": "^1.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "conflict": {
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
-<<<<<<< HEAD
-                "symfony/emoji": "^7.1|^8.0",
-                "symfony/http-client": "^6.4|^7.0|^8.0",
-                "symfony/intl": "^6.4|^7.0|^8.0",
-                "symfony/translation-contracts": "^2.5|^3.0",
-                "symfony/var-exporter": "^6.4|^7.0|^8.0"
-=======
                 "symfony/emoji": "^7.4|^8.0",
                 "symfony/http-client": "^7.4|^8.0",
                 "symfony/intl": "^7.4|^8.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -6468,11 +5527,7 @@
                 "utf8"
             ],
             "support": {
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/string/tree/v7.4.21"
-=======
                 "source": "https://github.com/symfony/string/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -6492,40 +5547,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-10-03T15:15:30+00:00"
-        },
-        {
-            "name": "symfony/translation",
-            "version": "v7.4.17",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/translation.git",
-                "reference": "2ee1e4a3b32a528a642babe041ff7c440b213b4b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/2ee1e4a3b32a528a642babe041ff7c440b213b4b",
-                "reference": "2ee1e4a3b32a528a642babe041ff7c440b213b4b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "symfony/deprecation-contracts": "^2.5|^3",
-                "symfony/polyfill-mbstring": "~1.0",
-                "symfony/translation-contracts": "^2.5.3|^3.3"
-            },
-            "conflict": {
-                "nikic/php-parser": "<5.0",
-                "symfony/config": "<6.4",
-                "symfony/console": "<6.4",
-                "symfony/dependency-injection": "<6.4",
-                "symfony/http-client-contracts": "<2.5",
-                "symfony/http-kernel": "<6.4",
-                "symfony/service-contracts": "<2.5",
-                "symfony/twig-bundle": "<6.4",
-                "symfony/yaml": "<6.4"
-=======
             "time": "2026-10-03T15:16:03+00:00"
         },
         {
@@ -6551,7 +5572,6 @@
                 "nikic/php-parser": "<5.0",
                 "symfony/http-client-contracts": "<2.5",
                 "symfony/service-contracts": "<2.5"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "provide": {
                 "symfony/translation-implementation": "2.3|3.0"
@@ -6559,19 +5579,6 @@
             "require-dev": {
                 "nikic/php-parser": "^5.0",
                 "psr/log": "^1|^2|^3",
-<<<<<<< HEAD
-                "symfony/config": "^6.4|^7.0|^8.0",
-                "symfony/console": "^6.4|^7.0|^8.0",
-                "symfony/dependency-injection": "^6.4|^7.0|^8.0",
-                "symfony/finder": "^6.4|^7.0|^8.0",
-                "symfony/http-client-contracts": "^2.5|^3.0",
-                "symfony/http-kernel": "^6.4|^7.0|^8.0",
-                "symfony/intl": "^6.4|^7.0|^8.0",
-                "symfony/polyfill-intl-icu": "^1.21",
-                "symfony/routing": "^6.4|^7.0|^8.0",
-                "symfony/service-contracts": "^2.5|^3",
-                "symfony/yaml": "^6.4|^7.0|^8.0"
-=======
                 "symfony/config": "^7.4|^8.0",
                 "symfony/console": "^7.4|^8.0",
                 "symfony/dependency-injection": "^7.4|^8.0",
@@ -6583,7 +5590,6 @@
                 "symfony/routing": "^7.4|^8.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/yaml": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -6614,11 +5620,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-<<<<<<< HEAD
-                "source": "https://github.com/symfony/translation/tree/v7.4.17"
-=======
                 "source": "https://github.com/symfony/translation/tree/v8.1.5"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -6638,11 +5640,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-08-21T17:40:08+00:00"
-=======
             "time": "2026-08-21T17:47:34+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "symfony/translation-contracts",
@@ -6728,7 +5726,6 @@
         },
         {
             "name": "symfony/uid",
-<<<<<<< HEAD
             "version": "v7.4.21",
             "source": {
                 "type": "git",
@@ -6747,26 +5744,6 @@
             },
             "require-dev": {
                 "symfony/console": "^6.4|^7.0|^8.0"
-=======
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/uid.git",
-                "reference": "cb487cf30380f0b0b090973bb9c0588193c06685"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/uid/zipball/cb487cf30380f0b0b090973bb9c0588193c06685",
-                "reference": "cb487cf30380f0b0b090973bb9c0588193c06685",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
-                "symfony/polyfill-uuid": "^1.15"
-            },
-            "require-dev": {
-                "symfony/console": "^7.4|^8.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -6803,11 +5780,7 @@
                 "uuid"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/uid/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/uid/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -6827,7 +5800,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-12T14:31:36+00:00"
         },
         {
@@ -6857,37 +5829,6 @@
                 "symfony/http-kernel": "^6.4|^7.0|^8.0",
                 "symfony/process": "^6.4|^7.0|^8.0",
                 "symfony/uid": "^6.4|^7.0|^8.0",
-=======
-            "time": "2026-10-12T14:32:04+00:00"
-        },
-        {
-            "name": "symfony/var-dumper",
-            "version": "v8.1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "b8c168c764c09f5d931f290c9dbdd13f1bf142f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b8c168c764c09f5d931f290c9dbdd13f1bf142f3",
-                "reference": "b8c168c764c09f5d931f290c9dbdd13f1bf142f3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.4.1",
-                "symfony/polyfill-mbstring": "^1.0"
-            },
-            "conflict": {
-                "symfony/console": "<7.4",
-                "symfony/error-handler": "<7.4"
-            },
-            "require-dev": {
-                "symfony/console": "^7.4|^8.0",
-                "symfony/http-kernel": "^7.4|^8.0",
-                "symfony/process": "^7.4|^8.0",
-                "symfony/uid": "^7.4|^8.0",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "twig/twig": "^3.12|^4.0"
             },
             "bin": [
@@ -6926,11 +5867,7 @@
                 "dump"
             ],
             "support": {
-<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v7.4.21"
-=======
-                "source": "https://github.com/symfony/var-dumper/tree/v8.1.9"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -6950,11 +5887,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-13T05:48:33+00:00"
-=======
-            "time": "2026-10-13T05:48:51+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -7013,7 +5946,6 @@
         },
         {
             "name": "vlucas/phpdotenv",
-<<<<<<< HEAD
             "version": "v5.8.0",
             "source": {
                 "type": "git",
@@ -7024,18 +5956,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpdotenv/phpdotenv/zipball/96149103e62ac67e915f6d2ef59b72dee2e011e0",
                 "reference": "96149103e62ac67e915f6d2ef59b72dee2e011e0",
-=======
-            "version": "v5.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpdotenv/phpdotenv.git",
-                "reference": "301c07936b16d88628b126b01d082ba153cf4c40"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpdotenv/phpdotenv/zipball/301c07936b16d88628b126b01d082ba153cf4c40",
-                "reference": "301c07936b16d88628b126b01d082ba153cf4c40",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
@@ -7062,11 +5982,7 @@
                     "forward-command": false
                 },
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-master": "5.8-dev"
-=======
-                    "dev-master": "5.6-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -7097,13 +6013,8 @@
                 "environment"
             ],
             "support": {
-<<<<<<< HEAD
                 "issues": "https://github.com/phpdotenv/phpdotenv/issues",
                 "source": "https://github.com/phpdotenv/phpdotenv/tree/v5.8.0"
-=======
-                "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v5.7.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -7115,11 +6026,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-25T16:26:19+00:00"
-=======
-            "time": "2026-08-24T18:07:49+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "voku/portable-ascii",
@@ -7387,71 +6294,6 @@
             "time": "2026-03-17T11:56:53+00:00"
         },
         {
-<<<<<<< HEAD
-=======
-            "name": "laravel/agent-detector",
-            "version": "v2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/agent-detector.git",
-                "reference": "9e0d78ab6848d34f3ce5a438ca99ae082afd910a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/agent-detector/zipball/9e0d78ab6848d34f3ce5a438ca99ae082afd910a",
-                "reference": "9e0d78ab6848d34f3ce5a438ca99ae082afd910a",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.2.0"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.24.0",
-                "pestphp/pest": "^3.8.5|^4.1.0",
-                "pestphp/pest-plugin-type-coverage": "^3.0|^4.0.2",
-                "phpstan/phpstan": "^2.1.26",
-                "rector/rector": "^2.1.7",
-                "symfony/var-dumper": "^7.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/functions.php"
-                ],
-                "psr-4": {
-                    "Laravel\\AgentDetector\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Detect if code is running in an AI agent or automated development environment",
-            "homepage": "https://github.com/laravel/agent-detector",
-            "keywords": [
-                "Agent",
-                "ai",
-                "automation",
-                "claude",
-                "cursor",
-                "detection",
-                "devin",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel/agent-detector/issues",
-                "source": "https://github.com/laravel/agent-detector"
-            },
-            "time": "2026-10-20T16:40:29+00:00"
-        },
-        {
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             "name": "laravel/pail",
             "version": "v1.2.7",
             "source": {
@@ -7532,104 +6374,6 @@
             "time": "2026-05-20T22:24:57+00:00"
         },
         {
-<<<<<<< HEAD
-            "name": "laravel/pint",
-            "version": "v1.30.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/pint.git",
-                "reference": "a96cb6eee2961905d2fce7207aefb80945bf6b28"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/a96cb6eee2961905d2fce7207aefb80945bf6b28",
-                "reference": "a96cb6eee2961905d2fce7207aefb80945bf6b28",
-=======
-            "name": "laravel/pao",
-            "version": "v1.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/pao.git",
-                "reference": "620424f1ce744d96937fb6be60a94793e79b67ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pao/zipball/620424f1ce744d96937fb6be60a94793e79b67ad",
-                "reference": "620424f1ce744d96937fb6be60a94793e79b67ad",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/agent-detector": "^2.0.2",
-                "php": "^8.3"
-            },
-            "conflict": {
-                "laravel/framework": "<12.0.0",
-                "nunomaduro/collision": "<8.9.3",
-                "pestphp/pest": "<4.6.3 || >=6.0.0",
-                "phpunit/phpunit": "<12.5.23 || >=13.0.0 <13.1.7 || >=14.0.0"
-            },
-            "require-dev": {
-                "brianium/paratest": "^7.20.0",
-                "laravel/pint": "^1.30.5",
-                "orchestra/testbench": "^10.11.0 || ^11.2.0",
-                "pestphp/pest": "^4.7.8 || ^5.1.4",
-                "pestphp/pest-plugin-type-coverage": "^4.0.4 || ^5.0.2",
-                "phpstan/phpstan": "^2.2.13",
-                "rector/rector": "^2.6.6",
-                "symfony/process": "^7.4.13 || ^8.1.6",
-                "symfony/var-dumper": "^7.4.15 || ^8.1.6"
-            },
-            "type": "library",
-            "extra": {
-                "pest": {
-                    "plugins": [
-                        "Laravel\\Pao\\Drivers\\Pest\\Plugin"
-                    ]
-                },
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Pao\\Laravel\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/Autoload.php"
-                ],
-                "psr-4": {
-                    "Laravel\\Pao\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Agent-optimized output for PHP testing tools",
-            "keywords": [
-                "Agent",
-                "PHPStan",
-                "ai",
-                "dev",
-                "paratest",
-                "pest",
-                "php",
-                "phpunit",
-                "rector",
-                "testing"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel/pao/issues",
-                "source": "https://github.com/laravel/pao"
-            },
-            "time": "2026-09-07T14:48:06+00:00"
-        },
-        {
             "name": "laravel/pint",
             "version": "v1.32.1",
             "source": {
@@ -7641,7 +6385,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/006bd7825eb01daf92959d060b89cd9514fe4253",
                 "reference": "006bd7825eb01daf92959d060b89cd9514fe4253",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
@@ -7649,21 +6392,6 @@
                 "ext-mbstring": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
-<<<<<<< HEAD
-                "php": "^8.2.0"
-            },
-            "require-dev": {
-                "composer/semver": "^3.4.4",
-                "friendsofphp/php-cs-fixer": "^3.95.18",
-                "illuminate/view": "^12.65.0",
-                "larastan/larastan": "^3.10.0",
-                "laravel-zero/framework": "^12.1.0",
-                "laravel/agent-detector": "^2.0.2",
-                "laravel/prompts": "^0.3.22",
-                "mockery/mockery": "^1.6.12",
-                "nunomaduro/termwind": "^2.4.0",
-                "pestphp/pest": "^3.8.7"
-=======
                 "php": "^8.3.0"
             },
             "require-dev": {
@@ -7677,7 +6405,6 @@
                 "mockery/mockery": "^1.6.15",
                 "nunomaduro/termwind": "^2.4.0",
                 "pestphp/pest": "^4.7.8"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "bin": [
                 "builds/pint"
@@ -7714,8 +6441,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-<<<<<<< HEAD
-            "time": "2026-08-05T16:47:22+00:00"
+            "time": "2026-09-10T10:47:55+00:00"
         },
         {
             "name": "laravel/sail",
@@ -7779,9 +6505,6 @@
                 "source": "https://github.com/laravel/sail"
             },
             "time": "2026-10-08T20:06:52+00:00"
-=======
-            "time": "2026-09-10T10:47:55+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "mockery/mockery",
@@ -8141,7 +6864,6 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-<<<<<<< HEAD
             "version": "11.0.12",
             "source": {
                 "type": "git",
@@ -8152,25 +6874,12 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/2c1ed04922802c15e1de5d7447b4856de949cf56",
                 "reference": "2c1ed04922802c15e1de5d7447b4856de949cf56",
-=======
-            "version": "12.5.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "7440368d94738d54f2c1de24dbd3871793bbb0dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/7440368d94738d54f2c1de24dbd3871793bbb0dd",
-                "reference": "7440368d94738d54f2c1de24dbd3871793bbb0dd",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
-<<<<<<< HEAD
                 "nikic/php-parser": "^5.7.0",
                 "php": ">=8.2",
                 "phpunit/php-file-iterator": "^5.1.0",
@@ -8184,19 +6893,6 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.5.46"
-=======
-                "nikic/php-parser": "^5.9.0",
-                "php": ">=8.3",
-                "phpunit/php-text-template": "^5.0.1",
-                "sebastian/complexity": "^5.0",
-                "sebastian/environment": "^8.1.2",
-                "sebastian/lines-of-code": "^4.0.1",
-                "sebastian/version": "^6.0",
-                "theseer/tokenizer": "^2.0.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.37"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "suggest": {
                 "ext-pcov": "PHP extension that provides line coverage",
@@ -8205,11 +6901,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "11.0.x-dev"
-=======
-                    "dev-main": "12.5.x-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8238,11 +6930,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/11.0.12"
-=======
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/12.5.8"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -8262,7 +6950,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-12-24T07:01:01+00:00"
         },
         {
@@ -8284,38 +6971,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
-=======
-            "time": "2026-10-03T14:03:50+00:00"
-        },
-        {
-            "name": "phpunit/php-file-iterator",
-            "version": "6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "a248d1640ab059b075f53a2ef0f9856e864e06b5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/a248d1640ab059b075f53a2ef0f9856e864e06b5",
-                "reference": "a248d1640ab059b075f53a2ef0f9856e864e06b5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.33"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.1-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8343,11 +7003,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.1"
-=======
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/6.0.2"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -8367,7 +7023,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-02-02T13:52:54+00:00"
         },
         {
@@ -8390,30 +7045,6 @@
             "require-dev": {
                 "ext-pcntl": "*",
                 "phpunit/phpunit": "^11.0"
-=======
-            "time": "2026-08-25T14:40:53+00:00"
-        },
-        {
-            "name": "phpunit/php-invoker",
-            "version": "6.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-invoker.git",
-                "reference": "12b54e689b07a25a9b41e57736dfab6ec9ae5406"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/12b54e689b07a25a9b41e57736dfab6ec9ae5406",
-                "reference": "12b54e689b07a25a9b41e57736dfab6ec9ae5406",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "ext-pcntl": "*",
-                "phpunit/phpunit": "^12.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "suggest": {
                 "ext-pcntl": "*"
@@ -8421,11 +7052,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.0-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8452,11 +7079,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-invoker/issues",
                 "security": "https://github.com/sebastianbergmann/php-invoker/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-invoker/tree/5.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/php-invoker/tree/6.0.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -8464,7 +7087,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2024-07-03T05:07:44+00:00"
         },
         {
@@ -8486,38 +7108,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-            "time": "2025-02-07T04:58:58+00:00"
-        },
-        {
-            "name": "phpunit/php-text-template",
-            "version": "5.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "babab73b7ef9fae406f2eb3ee11323a61caa63d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/babab73b7ef9fae406f2eb3ee11323a61caa63d5",
-                "reference": "babab73b7ef9fae406f2eb3ee11323a61caa63d5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.37"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "4.0-dev"
-=======
-                    "dev-main": "5.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8544,17 +7139,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
                 "security": "https://github.com/sebastianbergmann/php-text-template/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-text-template/tree/4.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/php-text-template/tree/5.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 }
             ],
             "time": "2024-07-03T05:08:43+00:00"
@@ -8578,52 +7168,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpunit/php-text-template",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-10-03T04:51:29+00:00"
-        },
-        {
-            "name": "phpunit/php-timer",
-            "version": "8.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc",
-                "reference": "f258ce36aa457f3aa3339f9ed4c81fc66dc8c2cc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.0-dev"
-=======
-                    "dev-main": "8.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8650,11 +7199,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-timer/issues",
                 "security": "https://github.com/sebastianbergmann/php-timer/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-timer/tree/7.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/php-timer/tree/8.0.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -8662,7 +7207,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2024-07-03T05:09:35+00:00"
         },
         {
@@ -8677,22 +7221,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/36b75bf56a8535623f5b3e24b27ea1823759da1a",
                 "reference": "36b75bf56a8535623f5b3e24b27ea1823759da1a",
-=======
-            "time": "2025-02-07T04:59:38+00:00"
-        },
-        {
-            "name": "phpunit/phpunit",
-            "version": "12.5.40",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "76bd3198f16aeb375a4d5f3626471445aed0966e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/76bd3198f16aeb375a4d5f3626471445aed0966e",
-                "reference": "76bd3198f16aeb375a4d5f3626471445aed0966e",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
@@ -8705,7 +7233,6 @@
                 "myclabs/deep-copy": "^1.14.0",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
-<<<<<<< HEAD
                 "php": ">=8.2",
                 "phpunit/php-code-coverage": "^11.0.12",
                 "phpunit/php-file-iterator": "^5.1.1",
@@ -8728,37 +7255,13 @@
             "suggest": {
                 "ext-soap": "To be able to generate mocks based on WSDL files"
             },
-=======
-                "php": ">=8.3",
-                "phpunit/php-code-coverage": "^12.5.8",
-                "phpunit/php-file-iterator": "^6.0.2",
-                "phpunit/php-invoker": "^6.0.0",
-                "phpunit/php-text-template": "^5.0.1",
-                "phpunit/php-timer": "^8.0.0",
-                "sebastian/cli-parser": "^4.2.1",
-                "sebastian/comparator": "^7.1.8",
-                "sebastian/diff": "^7.0.1",
-                "sebastian/environment": "^8.1.2",
-                "sebastian/exporter": "^7.0.3",
-                "sebastian/global-state": "^8.0.3",
-                "sebastian/object-enumerator": "^7.0.0",
-                "sebastian/recursion-context": "^7.0.1",
-                "sebastian/type": "^6.0.4",
-                "sebastian/version": "^6.0.1",
-                "staabm/side-effects-detector": "^1.0.5"
-            },
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             "bin": [
                 "phpunit"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "11.5-dev"
-=======
-                    "dev-main": "12.5-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8790,11 +7293,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.57"
-=======
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.40"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -8802,7 +7301,6 @@
                     "type": "other"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-10-05T05:47:54+00:00"
         },
         {
@@ -8824,38 +7322,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-            "time": "2026-10-16T05:55:07+00:00"
-        },
-        {
-            "name": "sebastian/cli-parser",
-            "version": "4.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/cli-parser.git",
-                "reference": "7d05781b13f7dec9043a629a21d086ed74582a15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/cli-parser/zipball/7d05781b13f7dec9043a629a21d086ed74582a15",
-                "reference": "7d05781b13f7dec9043a629a21d086ed74582a15",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.25"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "3.0-dev"
-=======
-                    "dev-main": "4.2-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -8879,17 +7350,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/cli-parser/issues",
                 "security": "https://github.com/sebastianbergmann/cli-parser/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/cli-parser/tree/3.0.2"
-=======
-                "source": "https://github.com/sebastianbergmann/cli-parser/tree/4.2.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 }
             ],
             "time": "2024-07-03T04:41:36+00:00"
@@ -9019,56 +7485,17 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2c95e1e86cb8dd41beb8d502057d1081ccc8eca9",
                 "reference": "2c95e1e86cb8dd41beb8d502057d1081ccc8eca9",
-=======
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/sebastian/cli-parser",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-05-17T05:29:34+00:00"
-        },
-        {
-            "name": "sebastian/comparator",
-            "version": "7.1.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "7c65c1e79836812819705b473a90c12399542485"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/7c65c1e79836812819705b473a90c12399542485",
-                "reference": "7c65c1e79836812819705b473a90c12399542485",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-mbstring": "*",
-<<<<<<< HEAD
                 "php": ">=8.2",
                 "sebastian/diff": "^6.0",
                 "sebastian/exporter": "^6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.4"
-=======
-                "php": ">=8.3",
-                "sebastian/diff": "^7.0",
-                "sebastian/exporter": "^7.0.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.25"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "suggest": {
                 "ext-bcmath": "For comparing BcMath\\Number objects"
@@ -9076,11 +7503,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.3-dev"
-=======
-                    "dev-main": "7.1-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9120,11 +7543,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/6.3.3"
-=======
-                "source": "https://github.com/sebastianbergmann/comparator/tree/7.1.8"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -9144,7 +7563,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-01-24T09:26:40+00:00"
         },
         {
@@ -9159,46 +7577,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/ee41d384ab1906c68852636b6de493846e13e5a0",
                 "reference": "ee41d384ab1906c68852636b6de493846e13e5a0",
-=======
-            "time": "2026-05-21T04:45:25+00:00"
-        },
-        {
-            "name": "sebastian/complexity",
-            "version": "5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/complexity.git",
-                "reference": "bad4316aba5303d0221f43f8cee37eb58d384bbb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/bad4316aba5303d0221f43f8cee37eb58d384bbb",
-                "reference": "bad4316aba5303d0221f43f8cee37eb58d384bbb",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^5.0",
-<<<<<<< HEAD
                 "php": ">=8.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "4.0-dev"
-=======
-                    "dev-main": "5.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9222,11 +7613,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/complexity/issues",
                 "security": "https://github.com/sebastianbergmann/complexity/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/complexity/tree/4.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/complexity/tree/5.0.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -9234,7 +7621,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2024-07-03T04:49:50+00:00"
         },
         {
@@ -9257,39 +7643,11 @@
             "require-dev": {
                 "phpunit/phpunit": "^11.0",
                 "symfony/process": "^4.2 || ^5"
-=======
-            "time": "2025-02-07T04:55:25+00:00"
-        },
-        {
-            "name": "sebastian/diff",
-            "version": "7.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "cd4cabe39f8a4e8ee6818ba99f10a05561ea4ad6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/cd4cabe39f8a4e8ee6818ba99f10a05561ea4ad6",
-                "reference": "cd4cabe39f8a4e8ee6818ba99f10a05561ea4ad6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.33",
-                "symfony/process": "^7.4.17"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "7.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9322,17 +7680,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/diff/issues",
                 "security": "https://github.com/sebastianbergmann/diff/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/diff/tree/6.0.2"
-=======
-                "source": "https://github.com/sebastianbergmann/diff/tree/7.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 }
             ],
             "time": "2024-07-03T04:53:05+00:00"
@@ -9356,43 +7709,6 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
-=======
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/sebastian/diff",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-08-25T15:35:54+00:00"
-        },
-        {
-            "name": "sebastian/environment",
-            "version": "8.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "9d32c685773823b1983e256ae4ecd48a10d6e439"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/9d32c685773823b1983e256ae4ecd48a10d6e439",
-                "reference": "9d32c685773823b1983e256ae4ecd48a10d6e439",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.26"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "suggest": {
                 "ext-posix": "*"
@@ -9400,11 +7716,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.2-dev"
-=======
-                    "dev-main": "8.1-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9432,11 +7744,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
                 "security": "https://github.com/sebastianbergmann/environment/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/environment/tree/7.2.1"
-=======
-                "source": "https://github.com/sebastianbergmann/environment/tree/8.1.2"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -9456,7 +7764,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-05-21T11:55:47+00:00"
         },
         {
@@ -9471,48 +7778,20 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/70a298763b40b213ec087c51c739efcaa90bcd74",
                 "reference": "70a298763b40b213ec087c51c739efcaa90bcd74",
-=======
-            "time": "2026-05-25T13:40:20+00:00"
-        },
-        {
-            "name": "sebastian/exporter",
-            "version": "7.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "c5e21b5de653ce0a769fb36f5cdfcb5e7a32cf23"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/c5e21b5de653ce0a769fb36f5cdfcb5e7a32cf23",
-                "reference": "c5e21b5de653ce0a769fb36f5cdfcb5e7a32cf23",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-<<<<<<< HEAD
                 "php": ">=8.2",
                 "sebastian/recursion-context": "^6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
-=======
-                "php": ">=8.3",
-                "sebastian/recursion-context": "^7.0.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.25"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.3-dev"
-=======
-                    "dev-main": "7.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9555,11 +7834,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/exporter/tree/6.3.2"
-=======
-                "source": "https://github.com/sebastianbergmann/exporter/tree/7.0.3"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -9579,7 +7854,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-09-24T06:12:51+00:00"
         },
         {
@@ -9604,41 +7878,11 @@
             "require-dev": {
                 "ext-dom": "*",
                 "phpunit/phpunit": "^11.0"
-=======
-            "time": "2026-05-20T04:37:17+00:00"
-        },
-        {
-            "name": "sebastian/global-state",
-            "version": "8.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "b164d3274d6537ab462591c5755f76a8f5b1aae9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/b164d3274d6537ab462591c5755f76a8f5b1aae9",
-                "reference": "b164d3274d6537ab462591c5755f76a8f5b1aae9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3",
-                "sebastian/object-reflector": "^5.0",
-                "sebastian/recursion-context": "^7.0.1"
-            },
-            "require-dev": {
-                "ext-dom": "*",
-                "phpunit/phpunit": "^12.5.28"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.0-dev"
-=======
-                    "dev-main": "8.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9664,17 +7908,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
                 "security": "https://github.com/sebastianbergmann/global-state/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/global-state/tree/7.0.2"
-=======
-                "source": "https://github.com/sebastianbergmann/global-state/tree/8.0.3"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 }
             ],
             "time": "2024-07-03T04:57:36+00:00"
@@ -9699,53 +7938,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/sebastian/global-state",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-06-01T15:10:33+00:00"
-        },
-        {
-            "name": "sebastian/lines-of-code",
-            "version": "4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/lines-of-code.git",
-                "reference": "d543b8ef219dcd8da262cbb958639a96bedba10e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/d543b8ef219dcd8da262cbb958639a96bedba10e",
-                "reference": "d543b8ef219dcd8da262cbb958639a96bedba10e",
-                "shasum": ""
-            },
-            "require": {
-                "nikic/php-parser": "^5.7.0",
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.25"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "3.0-dev"
-=======
-                    "dev-main": "4.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9769,17 +7966,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
                 "security": "https://github.com/sebastianbergmann/lines-of-code/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/lines-of-code/tree/3.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/4.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 }
             ],
             "time": "2024-07-03T04:58:38+00:00"
@@ -9805,54 +7997,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/sebastian/lines-of-code",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-05-19T16:22:07+00:00"
-        },
-        {
-            "name": "sebastian/object-enumerator",
-            "version": "7.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
-                "reference": "1effe8e9b8e068e9ae228e542d5d11b5d16db894"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/1effe8e9b8e068e9ae228e542d5d11b5d16db894",
-                "reference": "1effe8e9b8e068e9ae228e542d5d11b5d16db894",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3",
-                "sebastian/object-reflector": "^5.0",
-                "sebastian/recursion-context": "^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "7.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9875,11 +8024,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
                 "security": "https://github.com/sebastianbergmann/object-enumerator/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/object-enumerator/tree/6.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/7.0.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -9887,7 +8032,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2024-07-03T05:00:13+00:00"
         },
         {
@@ -9909,38 +8053,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
-=======
-            "time": "2025-02-07T04:57:48+00:00"
-        },
-        {
-            "name": "sebastian/object-reflector",
-            "version": "5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/object-reflector.git",
-                "reference": "4bfa827c969c98be1e527abd576533293c634f6a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/4bfa827c969c98be1e527abd576533293c634f6a",
-                "reference": "4bfa827c969c98be1e527abd576533293c634f6a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "4.0-dev"
-=======
-                    "dev-main": "5.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -9963,11 +8080,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
                 "security": "https://github.com/sebastianbergmann/object-reflector/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/object-reflector/tree/4.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/object-reflector/tree/5.0.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -9975,7 +8088,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2024-07-03T05:01:32+00:00"
         },
         {
@@ -9997,38 +8109,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
-=======
-            "time": "2025-02-07T04:58:17+00:00"
-        },
-        {
-            "name": "sebastian/recursion-context",
-            "version": "7.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "0b01998a7d5b1f122911a66bebcb8d46f0c82d8c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/0b01998a7d5b1f122911a66bebcb8d46f0c82d8c",
-                "reference": "0b01998a7d5b1f122911a66bebcb8d46f0c82d8c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.0"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "7.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -10059,11 +8144,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
                 "security": "https://github.com/sebastianbergmann/recursion-context/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/6.0.3"
-=======
-                "source": "https://github.com/sebastianbergmann/recursion-context/tree/7.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -10083,7 +8164,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-08-13T04:42:22+00:00"
         },
         {
@@ -10105,38 +8185,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
-=======
-            "time": "2025-08-13T04:44:59+00:00"
-        },
-        {
-            "name": "sebastian/type",
-            "version": "6.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "82ff822c2edc46724be9f7411d3163021f602773"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/82ff822c2edc46724be9f7411d3163021f602773",
-                "reference": "82ff822c2edc46724be9f7411d3163021f602773",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^12.5.25"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.1-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -10160,11 +8213,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
                 "security": "https://github.com/sebastianbergmann/type/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/type/tree/5.1.3"
-=======
-                "source": "https://github.com/sebastianbergmann/type/tree/6.0.4"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -10184,7 +8233,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-08-09T06:55:48+00:00"
         },
         {
@@ -10203,35 +8251,11 @@
             },
             "require": {
                 "php": ">=8.2"
-=======
-            "time": "2026-05-20T06:45:45+00:00"
-        },
-        {
-            "name": "sebastian/version",
-            "version": "6.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/version.git",
-                "reference": "9e935a16187e14f39b0e79910dabd614972cdb26"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/9e935a16187e14f39b0e79910dabd614972cdb26",
-                "reference": "9e935a16187e14f39b0e79910dabd614972cdb26",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.0-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 }
             },
             "autoload": {
@@ -10255,37 +8279,15 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/version/issues",
                 "security": "https://github.com/sebastianbergmann/version/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/version/tree/5.0.2"
-=======
-                "source": "https://github.com/sebastianbergmann/version/tree/6.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 }
             ],
             "time": "2024-10-09T05:16:32+00:00"
-=======
-                },
-                {
-                    "url": "https://liberapay.com/sebastianbergmann",
-                    "type": "liberapay"
-                },
-                {
-                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
-                    "type": "thanks_dev"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/sebastian/version",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2026-10-04T05:50:08+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         },
         {
             "name": "staabm/side-effects-detector",
@@ -10340,30 +8342,29 @@
             "time": "2024-10-20T05:08:20+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "symfony/yaml",
-            "version": "v7.4.21",
+            "version": "v8.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "044907929c7999814378be22da34722c7a86bad4"
+                "reference": "6107ee26a25215c3df3af0a3315e56bb4fd0b7db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/044907929c7999814378be22da34722c7a86bad4",
-                "reference": "044907929c7999814378be22da34722c7a86bad4",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/6107ee26a25215c3df3af0a3315e56bb4fd0b7db",
+                "reference": "6107ee26a25215c3df3af0a3315e56bb4fd0b7db",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2",
-                "symfony/deprecation-contracts": "^2.5|^3",
+                "php": ">=8.4.1",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "symfony/console": "<6.4"
+                "symfony/console": "<7.4"
             },
             "require-dev": {
-                "symfony/console": "^6.4|^7.0|^8.0"
+                "symfony/console": "^7.4|^8.0",
+                "yaml/yaml-test-suite": "*"
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -10394,7 +8395,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.4.21"
+                "source": "https://github.com/symfony/yaml/tree/v8.1.9"
             },
             "funding": [
                 {
@@ -10414,7 +8415,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-12T12:34:30+00:00"
+            "time": "2026-10-12T12:37:13+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -10428,30 +8429,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/theseer/tokenizer/zipball/b7489ce515e168639d17feec34b8847c326b0b3c",
                 "reference": "b7489ce515e168639d17feec34b8847c326b0b3c",
-=======
-            "name": "theseer/tokenizer",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "7989e43bf381af0eac72e4f0ca5bcbfa81658be4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/7989e43bf381af0eac72e4f0ca5bcbfa81658be4",
-                "reference": "7989e43bf381af0eac72e4f0ca5bcbfa81658be4",
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
-<<<<<<< HEAD
                 "php": "^7.2 || ^8.0"
-=======
-                "php": "^8.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "type": "library",
             "autoload": {
@@ -10473,11 +8457,7 @@
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "support": {
                 "issues": "https://github.com/theseer/tokenizer/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/theseer/tokenizer/tree/1.3.1"
-=======
-                "source": "https://github.com/theseer/tokenizer/tree/2.0.1"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
             },
             "funding": [
                 {
@@ -10485,11 +8465,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-11-17T20:03:58+00:00"
-=======
-            "time": "2025-12-08T11:19:18+00:00"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
         }
     ],
     "aliases": [],
@@ -10498,11 +8474,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-<<<<<<< HEAD
         "php": "^8.2"
-=======
-        "php": "^8.3"
->>>>>>> d606654 (proyecto de la puta cabra del fortnite)
     },
     "platform-dev": {},
     "plugin-api-version": "2.9.0"

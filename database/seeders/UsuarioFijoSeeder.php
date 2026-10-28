@@ -17,19 +17,19 @@ class UsuarioFijoSeeder extends Seeder
                 'id_rol' => 1, // Rol Doctora
                 'nombre' => 'Mayela Monserrat',
                 'apellido' => 'Treviño Ibarra',
-                'contraseña_hash' => Hash::make('doctora123'), // Cambia la contraseña por una segura
+                'contraseña_hash' => Hash::make('doctora123'),
                 'estatus' => true,
             ]
         );
 
         // Cuenta única de la Recepcionista
         Usuario::firstOrCreate(
-            ['telefono' => '8712222222'], // Teléfono único de la recepcionista
+            ['telefono' => '8712222222'], 
             [
                 'id_rol' => 2, // Rol Recepcionista
                 'nombre' => 'Recepcionista',
                 'apellido' => 'Cerebritos',
-                'contraseña_hash' => Hash::make('recepcion123'), // Cambia la contraseña
+                'contraseña_hash' => Hash::make('recepcion123'),
                 'estatus' => true,
             ]
         );

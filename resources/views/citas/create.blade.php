@@ -129,25 +129,32 @@
                 </div>
 
                 <!-- Select de Pacientes Dinámico -->
-                <div class="pt-1">
-                    <div class="relative">
-                        <select name="id_paciente" class="w-full py-3 px-4 bg-white text-verde-texto/80 text-sm rounded-2xl appearance-none focus:outline-none focus:ring-2 focus:ring-verde-turquesa cursor-pointer shadow-sm" required>
-                            <option value="" disabled selected>Selecciona al paciente</option>
-                            @if(isset($pacientes))
-                                @foreach($pacientes as $paciente)
-                                    <option value="{{ $paciente->id_paciente ?? $paciente->id }}">
-                                        {{ $paciente->nombre }} {{ $paciente->apellido_paterno ?? '' }}
-                                    </option>
-                                @endforeach
-                            @endif
-                        </select>
-                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-verde-texto">
-                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
-                                <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
+                 <div class="pt-1">
+    <div class="relative">
+        <select name="id_paciente" class="w-full py-3 px-4 bg-white text-verde-texto/80 text-sm rounded-2xl appearance-none focus:outline-none focus:ring-2 focus:ring-verde-turquesa cursor-pointer shadow-sm" required>
+            <option value="" disabled {{ !isset($pacienteSeleccionado) ? 'selected' : '' }}>
+                Selecciona al paciente
+            </option>
+            @if(isset($pacientes))
+                @foreach($pacientes as $paciente)
+                    @php
+                        $pId = $paciente->id_paciente ?? $paciente->id;
+                        $selectedId = isset($pacienteSeleccionado) ? ($pacienteSeleccionado->id_paciente ?? $pacienteSeleccionado->id) : null;
+                    @endphp
+                    <option value="{{ $pId }}" {{ ($selectedId && $selectedId == $pId) ? 'selected' : '' }}>
+                        {{ $paciente->nombre }} {{ $paciente->apellido_paterno ?? '' }}
+                    </option>
+                @endforeach
+            @endif
+        </select>
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-verde-texto">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/>
+            </svg>
+        </div>
+    </div>
+</div>
+                
 
                 <!-- Botón de Acción Principal (Sin el botón de registro de pacientes) -->
                 <div class="pt-2">

@@ -20,7 +20,7 @@ class Cita extends Model
         'hora_fin',
         'costo_total',
         'monto_total',
-        'monto_anticipo', // <--- Agrégalo aquí
+        'monto_anticipo', 
         'saldo_pendiente',
         'estado_cita'
     ];

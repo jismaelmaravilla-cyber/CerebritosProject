@@ -9,27 +9,23 @@ use App\Models\Paciente;
 
 class CitaController extends Controller
 {
-    public function getCitas(Request $request)
-    {
-        // Obtenemos los horarios disponibles y aplicamos unique('hora_inicio') para evitar filas repetidas en la vista
-        $horarios = HorarioDisponible::where('status', true)
-            ->get()
-            ->unique('hora_inicio');
-        
-        if ($horarios->isEmpty()) {
-            $horarios = HorarioDisponible::all()->unique('hora_inicio');
-        }
+    public function getCitas(Request $request, $id_paciente = null)
+{
+    $pacienteId = $id_paciente ?? $request->query('id_paciente');
+    $pacienteSeleccionado = $pacienteId ? Paciente::find($pacienteId) : null;
 
-        $usuario = auth()->user();
-        
-        if ($usuario && $usuario->tutor) {
-            $pacientes = $usuario->tutor->pacientes;
-        } else {
-            $pacientes = Paciente::all();
-        }
+    $horarios = HorarioDisponible::where('status', true)
+        ->get()
+        ->unique('hora_inicio');
 
-        return view('citas.create', compact('horarios', 'pacientes'));
+    if ($horarios->isEmpty()) {
+        $horarios = HorarioDisponible::all()->unique('hora_inicio');
     }
+
+    $pacientes = Paciente::all();
+
+    return view('citas.create', compact('horarios', 'pacientes', 'pacienteSeleccionado'));
+}
 
     public function store(Request $request)
     {
@@ -42,7 +38,7 @@ class CitaController extends Controller
         $usuarioId = auth()->id() ?? (auth()->user()->id_usuario ?? null);
         $horario = HorarioDisponible::find($request->id_horario);
 
-        // Creamos la cita cubriendo las tarifas base y columnas obligatorias de la BD
+        
         $cita = Cita::create([
             'id_usuario'      => $usuarioId,
             'id_horario'      => $request->id_horario,

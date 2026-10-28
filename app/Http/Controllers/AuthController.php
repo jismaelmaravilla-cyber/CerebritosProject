@@ -30,7 +30,7 @@ class AuthController extends Controller
         DB::beginTransaction();
 
         try {
-            // Buscamos el rol de Tutor de forma dinámica
+            // Buscamos el rol de Tutor
             $rolTutor = Rol::where('nombre_rol', 'Tutor')->first();
 
             if (!$rolTutor) {
@@ -72,7 +72,7 @@ class AuthController extends Controller
         }
     }
 
-    // Lógica para procesar el Inicio de Sesión (Login por Teléfono y Rol)
+    // Lógica para procesar el Inicio de Sesiónn (Login por Teléfono y Rol)
     public function ingresar(Request $request)
     {
         $request->validate([
@@ -83,13 +83,12 @@ class AuthController extends Controller
         $usuario = Usuario::with('rol')->where('telefono', $request->telefono)->first();
 
         if ($usuario && Hash::check($request->password, $usuario->contraseña_hash)) {
-            // Autenticamos al usuario en la sesión
+            
             Auth::login($usuario);
 
-            // Regenerar la sesión por seguridad contra fijación
+          
             $request->session()->regenerate();
 
-            // Verificación por Nombre de Rol en BD
             $rolNombre = $usuario->rol->nombre_rol ?? '';
 
             if (strcasecmp($rolNombre, 'Doctora') === 0 || $usuario->telefono === '8711111111') {
@@ -101,18 +100,17 @@ class AuthController extends Controller
             }
 
             if (strcasecmp($rolNombre, 'Tutor') === 0) {
-                // Redirige al inicio (vista welcome) para los tutores/papás
+                
                 return redirect('/');
             }
 
-            // Redirección por defecto si no coincide el rol
             return redirect('/');
         }
 
         return back()->withErrors(['telefono' => 'El teléfono o la contraseña son incorrectos.'])->withInput();
     }
 
-    // Lógica para cerrar sesión de forma segura
+    // cerrar la sesion
     public function salir(Request $request)
     {
         Auth::logout();

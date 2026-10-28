@@ -13,7 +13,7 @@ class Pago extends Model
     protected $primaryKey = 'id_pago';
 
     protected $fillable = [
-        'id_cita',                // <-- ¡Asegúrate de que esté aquí!
+        'id_cita',           
         'id_usuario',
         'monto',
         'tipo_pago',
