@@ -12,11 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('horarios_disponibles', function (Blueprint $table) {
-            $table->interger(id_horario);
-        $table-> string("dia_semana",20);
-        $table->time("hora_inicio");
-        $table->time("hora_fin");
-        $table->boolean("status")->default(1);
+            $table->id('id_horario');
+            $table->string("dia_semana", 20);
+            $table->time("hora_inicio");
+            $table->time("hora_fin");
+            $table->boolean("status")->default(1);
             $table->timestamps();
         });
     }

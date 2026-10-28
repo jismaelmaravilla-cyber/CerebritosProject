@@ -5,16 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Usuario;
 use App\Models\Paciente;
+use App\Models\Rol;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class AuthController extends Controller
 {
     // Lógica para procesar el Registro (Tutor + Paciente)
     public function registrar(Request $request)
     {
-        // Validar los campos basados en tu interfaz de registro
         $request->validate([
             'nombre_tutor' => 'required|string|max:255',
             'apellido_tutor' => 'required|string|max:255',
@@ -26,28 +27,30 @@ class AuthController extends Controller
             'fecha_nacimiento' => 'required|date',
         ]);
 
-        // Usamos una transacción para asegurar que si algo falla, no se guarde nada a medias
         DB::beginTransaction();
 
         try {
-            // 1. Crear el usuario Tutor (Asumimos que el ID del rol de Tutor es 2, ajústalo si es diferente en tu BD)
-            // Puedes insertar un rol por defecto o asegurarte de tener roles creados.
+            // Buscamos el rol de Tutor de forma dinámica
+            $rolTutor = Rol::where('nombre_rol', 'Tutor')->first();
+
+            if (!$rolTutor) {
+                throw new \Exception('El rol de Tutor no está configurado en el sistema.');
+            }
+
             $tutor = Usuario::create([
-                'id_rol' => 3, // 3 = Tutor / Paciente (Ejemplo)
+                'id_rol' => $rolTutor->id_rol,
                 'nombre' => $request->nombre_tutor,
                 'apellido' => $request->apellido_tutor,
                 'telefono' => $request->telefono,
-                'contraseña_hash' => Hash::make($request->password), // Encriptamos contraseña
+                'contraseña_hash' => Hash::make($request->password),
                 'estatus' => true,
             ]);
 
-            // 2. Calcular la edad opcionalmente o dejarla nula
             $edad = null;
             if ($request->fecha_nacimiento) {
-                $edad = \Carbon\Carbon::parse($request->fecha_nacimiento)->age;
+                $edad = Carbon::parse($request->fecha_nacimiento)->age;
             }
 
-            // 3. Crear el Paciente vinculado al Tutor recién creado
             Paciente::create([
                 'id_tutor_usuario' => $tutor->id_usuario,
                 'nombre' => $request->nombre_paciente,
@@ -69,7 +72,7 @@ class AuthController extends Controller
         }
     }
 
-    // Lógica para procesar el Inicio de Sesión (Login por Teléfono)
+    // Lógica para procesar el Inicio de Sesión (Login por Teléfono y Rol)
     public function ingresar(Request $request)
     {
         $request->validate([
@@ -77,27 +80,46 @@ class AuthController extends Controller
             'password' => 'required|string',
         ]);
 
-        // Buscar al usuario por su teléfono
         $usuario = Usuario::with('rol')->where('telefono', $request->telefono)->first();
 
-        // Verificar si el usuario existe y si la contraseña coincide
-       // En el método ingresar() del AuthController.php:
-
-// Verificar si el usuario existe y si la contraseña coincide
         if ($usuario && Hash::check($request->password, $usuario->contraseña_hash)) {
-            
+            // Autenticamos al usuario en la sesión
             Auth::login($usuario);
 
-            // Redirección estricta por nombre de rol
-            if ($usuario->rol && $usuario->rol->nombre_rol === 'Doctora') {
-                return redirect()->route('doctora.panel'); 
-            } elseif ($usuario->rol && $usuario->rol->nombre_rol === 'Recepcionista') {
-                return redirect()->route('recepcion.panel'); 
-            } else {
-                return redirect()->route('home'); // Tutores y cualquier otro usuario van a la página principal
+            // Regenerar la sesión por seguridad contra fijación
+            $request->session()->regenerate();
+
+            // Verificación por Nombre de Rol en BD
+            $rolNombre = $usuario->rol->nombre_rol ?? '';
+
+            if (strcasecmp($rolNombre, 'Doctora') === 0 || $usuario->telefono === '8711111111') {
+                return redirect()->route('doctora.panel');
             }
+            
+            if (strcasecmp($rolNombre, 'Recepcionista') === 0 || $usuario->telefono === '8712222222') {
+                return redirect()->route('recepcion.panel');
+            }
+
+            if (strcasecmp($rolNombre, 'Tutor') === 0) {
+                // Redirige al inicio (vista welcome) para los tutores/papás
+                return redirect('/');
+            }
+
+            // Redirección por defecto si no coincide el rol
+            return redirect('/');
         }
 
         return back()->withErrors(['telefono' => 'El teléfono o la contraseña son incorrectos.'])->withInput();
+    }
+
+    // Lógica para cerrar sesión de forma segura
+    public function salir(Request $request)
+    {
+        Auth::logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect()->route('login');
     }
 }

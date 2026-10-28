@@ -14,7 +14,6 @@
             <p class="text-gray-500 text-sm">Registro de Tutor y Paciente</p>
         </div>
 
-        <!-- Mostrar errores de validación si los hay -->
         @if($errors->any())
             <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg mb-4 text-sm">
                 <ul class="list-disc list-inside">
@@ -28,7 +27,6 @@
         <form action="{{ route('registro.post') }}" method="POST">
             @csrf
             
-            <!-- Sección: Información del Tutor -->
             <h2 class="text-lg font-semibold text-gray-700 mb-3 border-b pb-2">Información del Tutor</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -53,7 +51,6 @@
                 </div>
             </div>
 
-            <!-- Sección: Información del Paciente -->
             <h2 class="text-lg font-semibold text-gray-700 mb-3 border-b pb-2">Información del Paciente (Niño/a)</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">

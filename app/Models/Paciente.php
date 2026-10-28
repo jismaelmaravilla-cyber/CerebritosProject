@@ -21,7 +21,6 @@ class Paciente extends Model
         'parentesco_tutor',
     ];
 
-    // Relación inversa con el usuario tutor
     public function tutor()
     {
         return $this->belongsTo(Usuario::class, 'id_tutor_usuario', 'id_usuario');

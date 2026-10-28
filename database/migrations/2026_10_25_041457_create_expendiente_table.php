@@ -12,9 +12,18 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('expendiente', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+    $table->id('id_expediente');
+    $table->foreignId("id_paciente")
+        ->constrained("pacientes", "id_paciente")
+        ->onDelete("cascade");
+    $table->text("antecedentes")->nullable();
+    $table->text("criterios_diagnostico")->nullable();
+    $table->text("diagnostico_oficial");
+    $table->text("notas_consulta");
+    $table->text("plan_tratamiento");
+    $table->dateTime("fecha_registro");
+    $table->timestamps();
+});
     }
 
     /**

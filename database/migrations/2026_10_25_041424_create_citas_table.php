@@ -11,23 +11,26 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('citas', function (Blueprint $table) {
-            $table->id(id_cita);
-            $table->foreignId("id_usuario")
-            ->constrained("usuarios", "id_usuario")
-            ->onDelete("cascade");
-            $table->foreingId("id_horario")
-            ->contrained("horarios_disponibles", "id_horario");
-            $table->string("origen");
-            $tbale->date("fecha_cita");
-            $table->time("hora_inicio");
-            $table->time("hora_fin");
-            $table->decimal("costo_total", 8,2);
-            $table->decimal("monto_anticipo", 8,2);
-            $table->decimal("saldo_pendiente" 8,2);
-            $table->string("estado_cita");
-            $table->timestamps();
-        });
+      Schema::create('citas', function (Blueprint $table) {
+    $table->id('id_cita');
+    $table->foreignId("id_usuario")
+        ->constrained("usuarios", "id_usuario")
+        ->onDelete("cascade");
+        $table->foreignId("id_horario")
+    ->constrained("horarios_disponibles", "id_horario")
+    ->onDelete("cascade");
+   
+    $table->string("origen");
+    $table->date("fecha_cita");
+    $table->time("hora_inicio");
+    $table->time("hora_fin");
+    $table->decimal("costo_total", 8, 2);
+    $table->decimal("monto_anticipo", 8, 2);
+    $table->decimal("saldo_pendiente", 8, 2);
+    $table->string("estado_cita");
+    $table->timestamps();
+});
+
     }
 
     /**
@@ -36,5 +39,5 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('citas');
-    }z
+    }
 };
