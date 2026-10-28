@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DoctoraController;
+use App\Http\Controllers\PruebaController;
 
 // Rutas de Autenticación (Login - Públicas)
 Route::get('/login', function () {
@@ -39,4 +40,10 @@ Route::middleware(['auth'])->group(function () {
         Illuminate\Support\Facades\Auth::logout();
         return redirect()->route('login');
     })->name('logout');
+
 });
+
+    Route::get('/pruebas', [PruebaController::class, 'index'])->name('pruebas.index');
+    Route::get('/pruebas/{id}', [PruebaController::class, 'contestar'])->name('pruebas.contestar');
+    Route::post('/pruebas/{id}/guardar', [PruebaController::class, 'guardarRespuestas'])->name('pruebas.guardar');
+    Route::get('/pruebas/resultado/{idResultado}', [PruebaController::class, 'verResultado'])->name('pruebas.resultado');
